@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/assets1/task2_style.css">
+    <link rel="stylesheet" href="styles/assets1/task1_style.css">
+    <link rel="stylesheet" href="styles/assets1/task3_style.css">
+    <link rel="stylesheet" href="styles/assets1/task4_style.css">
+    <link rel="stylesheet" href="styles/assets1/task5_style.css">
+    <link rel="stylesheet" href="styles/assets1/task6_style.css">
+    <link rel="stylesheet" href="styles/assets1/task7_style.css">
+    <link rel="stylesheet" href="styles/assets1/task8_style.css">
+    <link rel="stylesheet" href="styles/assets1/task9_style.css">
+    <link rel="stylesheet" href="styles/assets1/task10_style.css">
+</head>
+
+<body>
+    <a name="task1"></a>
+    <h3>Сколько предметов? </h3>
+    <div class="task1_wrapper task_wrapper">
+        <div class="task1_line">
+            <div class="task1_answer">
+                <img src="Images_5/assets1/task1_1.png">
+                <input min="0" type="number" id='task1_1'>
+
+            </div>
+            <div class="task1_answer">
+                <img src="Images_5/assets1/task1_2.png">
+                <input min="0" type="number" id='task1_2'>
+
+            </div>
+            <div class="task1_answer">
+                <img src="Images_5/assets1/task1_3.png">
+                <input min="0" type="number" id='task1_3'>
+
+            </div>
+
+        </div>
+
+        <div class="task1_checkTask">
+            <button class="task1_reloadTask task1Btn">сброс &#8635; </button>
+            <div class="task1_chek_answer"></div>
+            <button class="task1_checkingTask task1Btn">проверить</button>
+        </div>
+    </div>
+
+    <a name="task2"></a>
+    <h3>Сколько отрезков? </h3>
+    <div class="task2_wrapper task_wrapper">
+        <div class="task2_answer">
+            <label>Ответ: <input min="0" type="number" id='task2_1'></label>
+
+        </div>
+        <div class="task2_checkTask">
+            <button class="task2_reloadTask task1Btn">сброс &#8635; </button>
+            <div class="task2_chek_answer"></div>
+            <button class="task2_checkingTask task1Btn">проверить</button>
+        </div>
+    </div>
+
+    <a name="task3"></a>
+    <h3>Через одну точку </h3>
+    <div class="task3_wrapper task_wrapper">
+
+        <div class="task3_answers">
+
+        </div>
+        <div class="task3_checkTask">
+            <button class="task3_reloadTask task1Btn">сброс &#8635; </button>
+            <div class="task3_chek_answer"></div>
+            <button class="task3_checkingTask task1Btn">проверить</button>
+        </div>
+    </div>
+
+    <a name="task4"></a>
+    <h3>Через две точки? </h3>
+    <div class="task4_wrapper task_wrapper">
+
+        <div class="task4_answers">
+
+        </div>
+        <div class="task4_checkTask">
+            <button class="task4_reloadTask task1Btn">сброс &#8635; </button>
+            <div class="task4_chek_answer"></div>
+            <button class="task4_checkingTask task1Btn">проверить</button>
+        </div>
+    </div>
+
+    <a name="task5"></a>
+    <h3>Замкнутые и незамкнутые линии </h3>
+    <div class="task5_wrapper task_wrapper">
+        <div class="task5_drop">
+            <div class="task5_dropeitem_container">
+                <h3>Замкнутые линии</h3>
+                <div class="task5_dropeitem task5_many" data-number="1"></div>
+            </div>
+            <div class="task5_dropeitem_container">
+                <h3>Незамкнутые линии</h3>
+                <div class="task5_dropeitem task5_one" data-number="2"></div>
+            </div>
+
+
+        </div>
+        <div class="task5_answers">
+
+        </div>
+        <div class="task5_checkTask">
+            <button class="task5_reloadTask task1Btn">сброс &#8635; </button>
+            <div class="task5_chek_answer"></div>
+            <button class="task5_checkingTask task1Btn">проверить</button>
+        </div>
+    </div>
+
+    <a name="task6"></a>
+    <h3>Раскрашиваем фигуры </h3>
+    <div class="task6_wrapper task_wrapper">
+        <div class="task6_circleWrapper">
+
+            <svg version="1.1" id="task6_svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 800 600" style="enable-background:new 0 0 800 600;" xml:space="preserve">
+                <g class='task6_baloon task6_red' id="1" fill="#FFFFFF" neededcolor="1" startfillcolor="#FFFFFF" stroke="green">
+                    <path d="M599.2,503.8l52.6-81.8l-52.6-82.8L546.5,422L599.2,503.8z"></path>
+                </g>
+                <g class='task6_baloon task6_red' id="2" fill="#FFFFFF" neededcolor="1" startfillcolor="#FFFFFF" stroke="green">
+                    <path d="M713.1,308.4l60.6-190.2l-198.3,12.4l-63.1,189.3L713.1,308.4z"></path>
+                </g>
+                <g class='task6_baloon task6_white' id="3" fill="#FFFFFF" startfillcolor="#FFFFFF" stroke="green">
+                    <path
+                        d="M394.5,148.7c-1.6-10.7-2.5-17.6-2.6-20.8c-0.1,3.2-0.9,10.1-2.6,20.8c-1.6,10.6-3.6,20.9-5.9,30.8 c-2.3,9.8-4.8,18.4-7.3,25.6c-2.6,7.2-5.8,14.2-9.5,20.9c-3.8,6.8-8.3,14-13.6,21.8c-5.2,7.8-9.7,14.5-13.3,20.3 c-3.6,5.8-7,12.1-10.2,19c-3.2,6.9-5.4,15.9-6.7,26.9c-1.3,10.9-0.6,22.7,2.2,35.2c2.7,12.5,8.9,23.1,18.4,31.9s22.7,14.1,39.6,16 c3.6,0.4,6.6,0.8,9,1c2.4-0.3,5.3-0.6,9-1c16.9-1.9,30.1-7.3,39.6-16c9.5-8.7,15.6-19.4,18.4-31.9s3.5-24.2,2.2-35.2 c-1.3-11-3.6-19.9-6.7-26.9c-3.2-6.9-6.6-13.3-10.2-19c-3.6-5.8-8.1-12.5-13.3-20.3c-5.3-7.8-9.8-15.1-13.6-21.8 c-3.8-6.8-6.9-13.7-9.5-20.9c-2.5-7.2-5-15.8-7.2-25.6C398.1,169.6,396.1,159.4,394.5,148.7z">
+                    </path>
+                </g>
+                <g class='task6_baloon task6_red' id="4" fill="#FFFFFF" neededcolor="1" startfillcolor="#FFFFFF" stroke="green">
+                    <path d="M322.8,213.5V96.8h-296v116.7H322.8z"></path>
+                </g>
+                <g class='task6_baloon task6_white' id="5" fill="#FFFFFF" startfillcolor="#FFFFFF">
+                    <path d="M196.4,457.8l66.3-17.9l-19-64.4l-140.2-78.2L59.4,380L196.4,457.8z"></path>
+                </g>
+                <g id="6" stoppainting="true">
+                    <path
+                        d="M599.2,505.8c-0.7,0-1.3-0.3-1.7-0.9L544.9,423c-0.4-0.7-0.4-1.5,0-2.2l52.6-82.8c0.4-0.6,1-0.9,1.7-0.9s1.3,0.3,1.7,0.9 l52.6,82.8c0.4,0.7,0.4,1.5,0,2.2l-52.6,81.8C600.5,505.4,599.9,505.8,599.2,505.8z M548.9,422l50.3,78.1l50.3-78.1l-50.3-79.1 L548.9,422z M196.4,459.8c-0.3,0-0.7-0.1-1-0.3l-137-77.8c-0.9-0.5-1.3-1.7-0.8-2.7l44.1-82.7c0.3-0.5,0.7-0.8,1.2-1 c0.5-0.2,1.1-0.1,1.5,0.2l140.2,78.2c0.5,0.3,0.8,0.7,0.9,1.2l19,64.4c0.2,0.5,0.1,1.1-0.2,1.5c-0.3,0.5-0.7,0.8-1.2,1l-66.3,17.9 C196.7,459.8,196.5,459.8,196.4,459.8z M62.1,379.2l134.6,76.4l63.5-17.2L242,376.8L104.3,300L62.1,379.2z M391.9,400.2 c-0.1,0-0.2,0-0.2,0l-9-1c-17.2-2-30.9-7.5-40.7-16.5c-9.8-9-16.1-20.1-19-32.9c-2.8-12.7-3.6-24.7-2.3-35.9 c1.3-11.1,3.7-20.4,6.9-27.4c3.1-7,6.6-13.5,10.3-19.3c3.6-5.8,8.1-12.6,13.4-20.4c5.2-7.7,9.8-15,13.5-21.7 c3.7-6.6,6.8-13.6,9.4-20.6c2.5-7.1,4.9-15.7,7.2-25.4c2.3-9.8,4.2-20.1,5.8-30.6c1.6-10.5,2.5-17.4,2.5-20.5c0-1.1,0.9-2,2-2 s2,0.9,2,2c0.1,3.1,0.9,10,2.5,20.5c1.6,10.5,3.6,20.9,5.9,30.6c2.3,9.7,4.7,18.3,7.2,25.4c2.5,7,5.7,14,9.4,20.6 c3.8,6.7,8.3,14,13.5,21.7c5.3,7.7,9.8,14.6,13.4,20.4c3.7,5.8,7.2,12.3,10.3,19.3c3.2,7.1,5.5,16.3,6.8,27.4 c1.4,11.1,0.6,23.2-2.2,35.9c-2.9,12.9-9.3,23.9-19,32.9c-9.7,9-23.4,14.6-40.7,16.5c-3.6,0.4-6.6,0.8-9,1 C392.1,400.2,392,400.2,391.9,400.2z M391.9,145.1c-0.2,1.2-0.4,2.5-0.6,3.9c-1.6,10.6-3.6,21.1-5.9,30.9 c-2.3,9.9-4.8,18.6-7.4,25.8c-2.6,7.3-5.9,14.4-9.7,21.2c-3.8,6.8-8.4,14.2-13.7,22c-5.2,7.7-9.7,14.5-13.3,20.2 c-3.6,5.7-7,12-10,18.8c-3.1,6.7-5.3,15.5-6.6,26.3c-1.3,10.7-0.6,22.3,2.2,34.5c2.6,12,8.6,22.4,17.8,30.8 c9.1,8.4,22.1,13.6,38.4,15.5l8.7,1c2.3-0.3,5.2-0.6,8.7-1c16.4-1.9,29.3-7.1,38.4-15.5c9.2-8.4,15.2-18.8,17.8-30.8 c2.7-12.2,3.4-23.8,2.1-34.5c-1.3-10.7-3.5-19.6-6.5-26.3c-3.1-6.8-6.5-13.1-10.1-18.8c-3.6-5.7-8.1-12.5-13.3-20.2 c-5.3-7.8-9.9-15.2-13.7-22c-3.8-6.8-7.1-14-9.7-21.2c-2.6-7.3-5-16-7.3-25.8c-2.3-9.9-4.3-20.3-6-30.9c0,0,0,0,0,0 C392.3,147.6,392.1,146.3,391.9,145.1z M512.3,321.8c-0.6,0-1.2-0.3-1.6-0.8c-0.4-0.5-0.5-1.2-0.3-1.8l63.1-189.3 c0.3-0.8,1-1.3,1.8-1.4l198.3-12.4c0.7,0,1.3,0.2,1.7,0.8s0.5,1.2,0.3,1.8L715,309c-0.3,0.8-1,1.3-1.8,1.4l-200.8,11.4 C512.4,321.8,512.4,321.8,512.3,321.8z M576.9,132.5l-61.7,185.2l196.5-11.2l59.3-186.1L576.9,132.5z M322.8,215.5h-296 c-1.1,0-2-0.9-2-2V96.8c0-1.1,0.9-2,2-2h296c1.1,0,2,0.9,2,2v116.7C324.8,214.6,323.9,215.5,322.8,215.5z M28.8,211.5h292V98.8 h-292V211.5z">
+                    </path>
+                </g>
+            </svg>
+
+        </div>
+        <div class="task6_pencils">
+            <div class="task6_pencil"><img data-color='red' class="task6_pencilImg" src="Images_5/assets1/red.png" alt="re6 pencil"></div>
+            <div class="task6_pencil"><img data-color='#fff' class="task6_pencilImg" src="Images_5/assets1/eraser.png" alt="eraser"></div>
+        </div>
+        <div class="task6_checkTask">
+            <button class="task6_reloadTask task1Btn">сброс &#8635; </button>
+            <div class="task6_chek_answer"></div>
+            <button class="task6_checkingTask task1Btn">проверить</button>
+        </div>
+    </div>
+
+
+    <script src="js-data/assets1/task2_script.js"></script>
+    <script src="js-data/assets1/task3_script.js"></script>
+    <script src="js-data/assets1/task1_script.js"></script>
+    <script src="js-data/assets1/task4_script.js"></script>
+    <script src="js-data/assets1/task5_script.js"></script>
+    <script src="js-data/assets1/task6_script.js"></script>
+    <script src="js-data/assets1/task7_script.js"></script>
+    <script src="js-data/assets1/task8_script.js"></script>
+    <script src="js-data/assets1/task9_script.js"></script>
+    <script src="js-data/assets1/task10_script.js"></script>
+</body>
+
+</html>
