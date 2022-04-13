@@ -1,0 +1,1026 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/assets4/task1_style.css">
+    <link rel="stylesheet" href="styles/assets4/task2_style.css">
+    <link rel="stylesheet" href="styles/assets4/task3_style.css">
+    <link rel="stylesheet" href="styles/assets4/task4_style.css">
+    <link rel="stylesheet" href="styles/assets4/task5_style.css">
+    <link rel="stylesheet" href="styles/assets4/task6_style.css">
+    <link rel="stylesheet" href="styles/assets4/task7_style.css">
+    <link rel="stylesheet" href="styles/assets4/task8_style.css">
+    <link rel="stylesheet" href="styles/assets4/task9_style.css">
+    <link rel="stylesheet" href="styles/assets4/task10_style.css">
+    <link rel="stylesheet" href="styles/assets4/task11_style.css">
+    <link rel="stylesheet" href="styles/assets4/task12_style.css">
+    <link rel="stylesheet" href="styles/assets4/task13_style.css">
+    <link rel="stylesheet" href="styles/assets4/task14_style.css">
+    <link rel="stylesheet" href="styles/assets4/task15_style.css">
+    <link rel="stylesheet" href="styles/assets4/task16_style.css">
+    <link rel="stylesheet" href="styles/assets4/task17_style.css">
+    <link rel="stylesheet" href="styles/assets4/task18_style.css">
+    <link rel="stylesheet" href="styles/assets4/task19_style.css">
+    <link rel="stylesheet" href="styles/assets4/task20_style.css">
+    <link rel="stylesheet" href="styles/assets4/task21_style.css">
+</head>
+
+<body>
+    <a href="lesson5.html">следующий урок</a>
+
+    <a name="task1"></a>
+    <h3>Какие места заняты? </h3>
+    <div class="task1_wrapper task_wrapper">
+        <div class="task1_answer">
+            <label>Ответ: <input min="0" type="number" id='task1_1'></label>
+
+        </div>
+        <div class="task1_checkTask">
+            <button class="task1_reloadTask task1Btn">сброс &#8635; </button>
+            <div class="task1_chek_answer"></div>
+            <button class="task1_checkingTask task1Btn">проверить</button>
+        </div>
+    </div>
+
+    <a name="task2"></a>
+    <h3>Пятый, седьмой и восьмой </h3>
+    <div class="task2_wrapper task_wrapper">
+        <div class="task2_circleWrapper">
+            <svg version="1.1" id="task2_svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="94 300 800 200" style="enable-background:new 94 300 800 200;" xml:space="preserve">
+                <g class='task2_baloon task2_white' id="1" fill="#FFFFFF" startfillcolor="#FFFFFF" stroke="green">
+                    <path
+                        d="M163.2,358.1c-10.7,0-19.9,3.8-27.5,11.4c-7.6,7.6-11.3,16.8-11.3,27.5s3.8,19.8,11.3,27.4 c7.6,7.6,16.8,11.5,27.5,11.5s19.8-3.8,27.4-11.5c7.6-7.6,11.4-16.7,11.4-27.4s-3.8-19.9-11.4-27.5 C183,361.9,173.9,358.1,163.2,358.1z">
+                    </path>
+                </g>
+                <g class='task2_baloon task2_white' id="2" fill="#FFFFFF" startfillcolor="#FFFFFF" stroke="green">
+                    <path
+                        d="M218.9,397c0,10.7,3.8,19.8,11.4,27.4c7.6,7.6,16.8,11.5,27.5,11.5c10.7,0,19.8-3.8,27.4-11.5 c7.6-7.6,11.4-16.7,11.4-27.4s-3.8-19.9-11.4-27.5c-7.6-7.6-16.7-11.4-27.4-11.4c-10.7,0-19.9,3.8-27.5,11.4 C222.6,377.1,218.9,386.3,218.9,397z">
+                    </path>
+                </g>
+                <g class='task2_baloon task2_white' id="3" fill="#FFFFFF" startfillcolor="#FFFFFF" stroke="green">
+                    <path
+                        d="M379.6,369.5c-7.6-7.6-16.7-11.4-27.4-11.4c-10.7,0-19.9,3.8-27.5,11.4c-7.6,7.6-11.4,16.8-11.4,27.5 s3.8,19.8,11.4,27.4c7.6,7.6,16.8,11.5,27.5,11.5c10.7,0,19.8-3.8,27.4-11.5c7.6-7.6,11.4-16.7,11.4-27.4 S387.3,377.1,379.6,369.5z">
+                    </path>
+                </g>
+                <g class='task2_baloon task2_white' id="4" fill="#FFFFFF" startfillcolor="#FFFFFF" stroke="green">
+                    <path
+                        d="M446.8,358.1c-10.7,0-19.9,3.8-27.5,11.4c-7.6,7.6-11.3,16.8-11.3,27.5s3.8,19.8,11.3,27.4 c7.6,7.6,16.8,11.5,27.5,11.5c10.7,0,19.8-3.8,27.4-11.5c7.6-7.6,11.4-16.7,11.4-27.4s-3.8-19.9-11.4-27.5 C466.6,361.9,457.5,358.1,446.8,358.1z">
+                    </path>
+                </g>
+                <g class='task2_baloon task2_red' id="5" fill="#FFFFFF" neededcolor="0" startfillcolor="#FFFFFF"
+                    stroke="green">
+                    <path
+                        d="M568.8,369.5c-7.6-7.6-16.7-11.4-27.5-11.4c-10.7,0-19.8,3.8-27.4,11.4c-7.6,7.6-11.4,16.8-11.4,27.5 s3.8,19.8,11.4,27.4c7.6,7.6,16.8,11.5,27.4,11.5c10.7,0,19.9-3.8,27.5-11.5c7.6-7.6,11.4-16.7,11.4-27.4 S576.4,377.1,568.8,369.5z">
+                    </path>
+                </g>
+                <g class='task2_baloon task2_white' id="6" fill="#FFFFFF" startfillcolor="#FFFFFF" stroke="green">
+                    <path
+                        d="M635.8,358.1c-10.7,0-19.9,3.8-27.5,11.4c-7.5,7.6-11.3,16.8-11.3,27.5s3.8,19.8,11.3,27.4 c7.6,7.6,16.8,11.5,27.5,11.5c10.7,0,19.9-3.8,27.4-11.5c7.6-7.6,11.5-16.7,11.5-27.4s-3.8-19.9-11.5-27.5 C655.7,361.9,646.6,358.1,635.8,358.1z">
+                    </path>
+                </g>
+                <g class='task2_baloon task2_red' id="7" fill="#FFFFFF" neededcolor="0" startfillcolor="#FFFFFF"
+                    stroke="green">
+                    <path
+                        d="M757.8,424.4c7.6-7.6,11.5-16.7,11.5-27.4s-3.8-19.9-11.5-27.5c-7.6-7.6-16.7-11.4-27.4-11.4 s-19.9,3.8-27.5,11.4c-7.6,7.6-11.4,16.8-11.4,27.5s3.8,19.8,11.4,27.4c7.6,7.6,16.8,11.5,27.5,11.5S750.2,432,757.8,424.4z">
+                    </path>
+                </g>
+                <g class='task2_baloon task2_red' id="8" fill="#FFFFFF" neededcolor="0" startfillcolor="#FFFFFF"
+                    stroke="green">
+                    <path
+                        d="M852.3,369.5c-7.6-7.6-16.7-11.4-27.4-11.4c-10.7,0-19.9,3.8-27.5,11.4c-7.6,7.6-11.4,16.8-11.4,27.5 c0,10.7,3.8,19.8,11.4,27.4c7.6,7.6,16.8,11.5,27.5,11.5c10.7,0,19.8-3.8,27.4-11.5c7.6-7.6,11.4-16.7,11.4-27.4 S860,377.1,852.3,369.5z">
+                    </path>
+                </g>
+                <g id="9" stoppainting="true">
+                    <path
+                        d="M380.7,368.5L380.7,368.5c-7.9-7.9-17.3-11.8-28.5-11.8c-11.1,0-20.7,3.9-28.5,11.8l-0.1,0.1 c-7.8,7.9-11.8,17.4-11.8,28.5c0,11.1,3.9,20.6,11.8,28.5h-0.1c7.9,7.9,17.4,11.9,28.6,11.9c11.1,0,20.6-4,28.5-11.9l0,0 c7.9-7.9,11.8-17.3,11.8-28.5C392.6,385.9,388.6,376.4,380.7,368.5 M378.6,370.5L378.6,370.5c7.3,7.3,10.9,16.2,10.9,26.5 c0,10.3-3.6,19-10.9,26.3l-0.1,0.1c-7.3,7.3-16,11-26.3,11c-10.3,0-19.1-3.7-26.5-11l0,0c-7.3-7.3-10.9-16.1-10.9-26.4 c0-10.3,3.6-19.1,10.9-26.5l0,0c7.3-7.3,16.1-10.9,26.5-10.9C362.5,359.6,371.3,363.3,378.6,370.5 M134.6,368.4L134.6,368.4 c-7.9,8-11.8,17.5-11.8,28.6c0,11.1,3.9,20.6,11.8,28.5c7.9,7.9,17.4,11.9,28.5,11.9c11.1,0,20.6-4,28.5-11.9l0,0 c7.9-7.9,11.9-17.3,11.9-28.5c0-11.1-4-20.6-11.9-28.5c-7.9-7.9-17.3-11.8-28.5-11.8C152,356.6,142.5,360.6,134.6,368.4 M136.7,370.5c7.4-7.3,16.2-10.9,26.4-10.9c10.3,0,19.1,3.6,26.4,10.9c7.3,7.3,11,16.2,11,26.5c0,10.3-3.7,19-11,26.3l-0.1,0.1 c-7.3,7.3-16,11-26.3,11c-10.3,0-19.1-3.7-26.4-11c-7.3-7.3-10.9-16.1-10.9-26.4C125.8,386.7,129.4,377.9,136.7,370.5 L136.7,370.5 M229.1,368.4L229.1,368.4c-7.9,8-11.8,17.5-11.8,28.6c0,11.1,3.9,20.6,11.8,28.5h0c7.9,7.9,17.4,11.9,28.6,11.9 c11.1,0,20.6-4,28.4-11.9l0,0c7.9-7.9,11.8-17.3,11.9-28.5c0-11.1-3.9-20.6-11.9-28.5l0,0c-7.9-7.9-17.3-11.8-28.4-11.8 C246.6,356.6,237,360.6,229.1,368.4 M231.3,370.5L231.3,370.5c7.3-7.3,16.1-10.9,26.5-10.9c10.3,0,19.1,3.6,26.3,10.9h0 c7.3,7.3,11,16.2,11,26.5c0,10.3-3.6,19-11,26.3l0,0.1c-7.3,7.3-16,11-26.3,11c-10.3,0-19.1-3.7-26.5-11l0,0 c-7.3-7.3-10.9-16.1-10.9-26.4C220.4,386.7,224,377.9,231.3,370.5 M664.3,368.5L664.3,368.5c-7.8-7.9-17.3-11.8-28.5-11.8 c-11.1,0-20.6,3.9-28.5,11.8l0,0.1c-7.8,7.9-11.7,17.4-11.7,28.5c0,11.1,3.9,20.6,11.7,28.5h0c7.9,7.9,17.4,11.9,28.5,11.9 c11.1,0,20.6-4,28.5-11.9l0,0c7.9-7.9,11.9-17.3,11.9-28.5C676.2,385.9,672.2,376.4,664.3,368.5 M662.2,370.5L662.2,370.5 c7.4,7.3,11.1,16.2,11,26.5c0,10.3-3.7,19-11,26.3l0,0.1c-7.2,7.3-16,11-26.3,11c-10.3,0-19.1-3.7-26.4-11l0,0 c-7.2-7.3-10.8-16.1-10.9-26.4c0-10.3,3.6-19.1,10.9-26.5l0,0c7.4-7.3,16.2-10.9,26.4-10.9C646.2,359.6,654.9,363.3,662.2,370.5 M418.3,368.4L418.3,368.4c-7.9,8-11.8,17.5-11.8,28.6c0,11.1,3.9,20.6,11.8,28.5h0c7.9,7.9,17.4,11.9,28.6,11.9 c11.1,0,20.6-4,28.5-11.9l0,0c7.9-7.9,11.8-17.3,11.9-28.5c0-11.1-3.9-20.6-11.9-28.5l0,0c-7.9-7.9-17.3-11.8-28.5-11.8 C435.7,356.6,426.1,360.6,418.3,368.4 M420.4,370.5c7.3-7.3,16.1-10.9,26.4-10.9c10.3,0,19.1,3.6,26.4,10.9h0 c7.3,7.3,11,16.2,11,26.5c0,10.3-3.6,19-11,26.3l0,0.1c-7.3,7.3-16,11-26.3,11c-10.3,0-19.1-3.7-26.4-11l0,0 c-7.3-7.3-10.9-16.1-10.9-26.4C409.5,386.7,413.1,377.9,420.4,370.5L420.4,370.5 M512.8,368.4L512.8,368.4 c-7.9,8-11.8,17.5-11.8,28.6c0,11.1,3.9,20.6,11.8,28.5h0c7.9,7.9,17.4,11.9,28.5,11.9c11.1,0,20.6-4,28.5-11.9l0,0 c7.9-7.9,11.8-17.3,11.9-28.5c0-11.1-3.9-20.6-11.9-28.5l0,0c-7.9-7.9-17.4-11.8-28.5-11.8C530.2,356.6,520.7,360.6,512.8,368.4 M514.9,370.5L514.9,370.5c7.3-7.3,16.1-10.9,26.4-10.9c10.3,0,19.1,3.6,26.4,10.9h0c7.3,7.3,11,16.2,11,26.5 c0,10.3-3.6,19-11,26.3l0,0.1c-7.3,7.3-16,11-26.4,11c-10.3,0-19.1-3.7-26.4-11l0,0c-7.3-7.3-10.9-16.1-10.9-26.4 C504,386.7,507.6,377.9,514.9,370.5 M758.8,425.5c7.9-7.9,11.9-17.3,11.9-28.5c0-11.1-4-20.6-11.9-28.5 c-7.9-7.9-17.3-11.8-28.4-11.8c-11.1,0-20.6,3.9-28.6,11.8l0,0.1C694,376.4,690,385.9,690,397c0,11.1,3.9,20.6,11.8,28.5 c7.9,7.9,17.4,11.9,28.6,11.9C741.5,437.3,751,433.4,758.8,425.5L758.8,425.5 M756.8,423.3L756.8,423.3 c-7.3,7.4-16.1,11.1-26.3,11.1c-10.3,0-19.1-3.7-26.5-11c-7.3-7.3-10.9-16.1-10.9-26.4c0-10.3,3.6-19.1,10.9-26.5l0,0 c7.4-7.3,16.2-10.9,26.5-10.9c10.3,0,19.1,3.6,26.3,10.9c7.3,7.3,11,16.2,11,26.5C767.8,407.3,764.1,416,756.8,423.3 M853.4,368.5L853.4,368.5c-7.9-7.9-17.3-11.8-28.5-11.8c-11.1,0-20.7,3.9-28.5,11.8l-0.1,0.1c-7.8,7.9-11.8,17.4-11.8,28.5 c0,11.1,3.9,20.6,11.8,28.5h-0.1c7.9,7.9,17.4,11.9,28.6,11.9c11.1,0,20.6-4,28.5-11.9l0,0c7.9-7.9,11.8-17.3,11.8-28.5 C865.3,385.9,861.3,376.4,853.4,368.5 M851.3,370.5L851.3,370.5c7.3,7.3,10.9,16.2,11,26.5c0,10.3-3.6,19-11,26.3l0,0.1 c-7.3,7.3-16,11-26.3,11c-10.3,0-19.1-3.7-26.5-11l0,0c-7.3-7.3-10.9-16.1-10.9-26.4c0-10.3,3.6-19.1,10.9-26.5l0,0 c7.3-7.3,16.1-10.9,26.5-10.9C835.2,359.6,844,363.3,851.3,370.5z">
+                    </path>
+                </g>
+            </svg>
+
+        </div>
+        <div class="task2_pencils">
+            <div class="task2_pencil"><img data-color='red' class="task2_pencilImg" src="Images_5/assets4/red.png" alt="re6 pencil"></div>
+            <div class="task2_pencil"><img data-color='#fff' class="task2_pencilImg" src="Images_5/assets4/eraser.png" alt="eraser"></div>
+        </div>
+        <div class="task2_checkTask">
+            <button class="task2_reloadTask task1Btn">сброс &#8635; </button>
+            <div class="task2_chek_answer"></div>
+            <button class="task2_checkingTask task1Btn">проверить</button>
+        </div>
+    </div>
+
+    <a name="task3"></a>
+    <h3>Геометричекие фигуры </h3>
+    <div class="task3_wrapper task_wrapper">
+        <div class="task3_answer">
+            <p><span class="task3_play task3_play1">&#128265;</span>Маленький круг жёлтого цвета.<input maxlength="1" type="text" id='task3_1'></p>
+            <p><span class="task3_play task3_play2">&#128265;</span>Красных фигур две.<input maxlength="1" type="text" id='task3_2'></p>
+            <p><span class="task3_play task3_play3">&#128265;</span>Жёлтый квадрат больше красного.<input maxlength="1" type="text" id='task3_3'></p>
+            <p><span class="task3_play task3_play4">&#128265;</span>Между треугольником и кругом расположен квадрат.
+                <input maxlength="1" type="text" id='task3_4'></p>
+            <p><span class="task3_play task3_play5">&#128265;</span>Фигура зелёного цвета — треугольник.<input maxlength="1" type="text" id='task3_5'></p>
+
+        </div>
+        <div class="task3_checkTask">
+            <button class="task3_reloadTask task1Btn">сброс &#8635; </button>
+            <div class="task3_chek_answer"></div>
+            <button class="task3_checkingTask task1Btn">проверить</button>
+        </div>
+
+        <audio class="task3_audio" src="sound/4/task3_1.mp3">
+            Your browser does not support the
+            <code>audio</code> element.
+        </audio>
+        <audio class="task3_audio" src="sound/4/task3_2.mp3">
+            Your browser does not support the
+            <code>audio</code> element.
+        </audio>
+        <audio class="task3_audio" src="sound/4/task3_3.mp3">
+            Your browser does not support the
+            <code>audio</code> element.
+        </audio>
+        <audio class="task3_audio" src="sound/4/task3_4.mp3">
+            Your browser does not support the
+            <code>audio</code> element.
+        </audio>
+        <audio class="task3_audio" src="sound/4/task3_5.mp3">
+            Your browser does not support the
+            <code>audio</code> element.
+        </audio>
+    </div>
+
+    <a name="task4"></a>
+    <h3>Фигура в таблице </h3>
+    <div class="task4_wrapper task_wrapper">
+        <div class="task4_circleWrapper">
+
+            <svg version="1.1" id="task4_svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="94 97 800 600" style="enable-background:new 94 97 800 600;" xml:space="preserve">
+                <g id="Layer0_0_FILL" fill="#FFFFFF" stoppainting="true" startfillcolor="#FFFFFF">
+                    <path
+                        d="M767.2,123c0-0.3-0.1-0.5-0.3-0.7s-0.4-0.3-0.7-0.3h-548c-0.3,0-0.5,0.1-0.7,0.3c-0.2,0.2-0.3,0.4-0.3,0.7v548 c0,0.3,0.1,0.5,0.3,0.7s0.4,0.3,0.7,0.3h548c0.3,0,0.5-0.1,0.7-0.3s0.3-0.4,0.3-0.7V123 M765.2,306.6v180.7l-180.8-0.1V306.6 H765.2 M765.2,124v180.6H584.5V124H765.2 M765.2,489.4V670H584.4V489.4H765.2 M582.5,306.6v180.6H401.8V306.6H582.5 M582.5,124 v180.6H401.8V124H582.5 M219.2,487.3V306.6h180.6v180.6L219.2,487.3 M219.2,489.3h180.6V670H219.2V489.3 M219.2,124h180.6v180.6 H219.2V124 M582.5,489.3V670H401.8V489.3H582.5z">
+                    </path>
+                </g>
+                <g class='task4_baloon task4_white' id="Layer0_1_FILL" fill="#FFFFFF" startfillcolor="#FFFFFF"
+                    stroke="green">
+                    <path class="st0" d="M331.4,166.3h-43.9l-22.7,96.1h89.4L331.4,166.3z"></path>
+                </g>
+                <g class='task4_baloon task4_white' id="Layer0_2_FILL" fill="#FFFFFF" startfillcolor="#FFFFFF"
+                    stroke="green">
+                    <path class="st0" d="M547.2,176.8h-110v75h110V176.8z"></path>
+                </g>
+                <g class='task4_baloon task4_white' id="Layer0_3_FILL" fill="#FFFFFF" startfillcolor="#FFFFFF">
+                    <path class="st0"
+                        d="M711.4,177.7c-10.1-10.1-22.2-15.1-36.5-15.1s-26.5,5.1-36.7,15.1c-10.1,10.1-15.1,22.3-15.1,36.6 c0,14.3,5,26.5,15.1,36.6s22.3,15.2,36.7,15.2c14.3,0,26.5-5.1,36.5-15.2c10.1-10.1,15.2-22.2,15.2-36.6 C726.6,200,721.5,187.8,711.4,177.7z">
+                    </path>
+                </g>
+                <g class='task4_baloon task4_white' id="Layer0_4_FILL" fill="#FFFFFF" startfillcolor="#FFFFFF">
+                    <path class="st0" d="M250.5,349.3v95.5h70l47-47.8l-47-47.7H250.5z"></path>
+                </g>
+                <g class='task4_baloon task4_white' id="Layer0_5_FILL" fill="#FFFFFF" startfillcolor="#FFFFFF"
+                    stroke="green">
+                    <path class="st0" d="M423.7,397l70,53.8l67.1-53.8l-67.1-53.8L423.7,397z"></path>
+                </g>
+                <g class='task4_baloon task4_white' id="Layer0_6_FILL" fill="#FFFFFF" startfillcolor="#FFFFFF"
+                    stroke="green">
+                    <path class="st0" d="M716.4,355.4h-83.1v83.1h83.1V355.4z"></path>
+                </g>
+                <g class='task4_baloon task4_white' id="Layer0_7_FILL" fill="#FFFFFF" startfillcolor="#FFFFFF"
+                    stroke="green">
+                    <path class="st0"
+                        d="M366.9,579.7c0-12.1-5.6-22.4-16.6-31c-11.3-8.7-24.9-13-40.8-13c-15.9,0-29.6,4.3-40.8,13 c-11,8.6-16.5,18.9-16.6,31c0,12.1,5.6,22.3,16.6,30.8c11.3,8.8,24.9,13.1,40.8,13.1c15.9,0,29.5-4.4,40.8-13.1 C361.3,602,366.9,591.7,366.9,579.7z">
+                    </path>
+                </g>
+                <g class='task4_baloon task4_white' id="Layer0_8_FILL" fill="#FFFFFF" startfillcolor="#FFFFFF"
+                    stroke="green">
+                    <path class="st0"
+                        d="M507.2,529.2c-0.7,0-1.4,0-2.1,0c-0.3,0-0.6,0.1-0.9,0h-77.5V630h78.5h0.1c0.6,0,1.3,0,2,0 c0.1,0,0.1,0,0.2,0h0.5c13.6-0.2,25.2-5.1,34.9-14.8c9.9-9.8,14.8-21.7,14.8-35.6c0-13.9-4.9-25.8-14.8-35.7 C533,534.1,521.2,529.2,507.2,529.2z">
+                    </path>
+                </g>
+                <g class='task4_baloon task4_red' id="Layer0_9_FILL" fill="#FFFFFF" neededcolor="0"
+                    startfillcolor="#FFFFFF" stroke="green">
+                    <path class="st0"
+                        d="M647.5,549.8c-10.6,8.2-15.9,18.2-16,29.8c0,11.7,5.4,21.6,16,29.8c10.9,8.4,24.1,12.7,39.5,12.6 c11.4,0,21.6-2.3,30.5-6.9l-34.1-77.9C669.5,537.9,657.5,542.1,647.5,549.8z">
+                    </path>
+                </g>
+                <g id="Layer0_10_FILL" stoppainting="true">
+                    <path
+                        d="M507.2,524.2c-0.8,0-1.7,0-2.5,0c-0.1,0-0.2,0-0.3,0s-0.1,0-0.2,0h-80c-0.7,0-1.3,0.2-1.8,0.7s-0.7,1.1-0.7,1.8v105.7 c0,0.7,0.2,1.3,0.7,1.8s1.1,0.8,1.8,0.8H505c0.7,0,1.5,0.1,2.3,0c0.1,0,0.1,0,0.2,0h0.6c15-0.2,27.7-5.6,38.4-16.3 c10.8-10.8,16.3-23.9,16.3-39.1c0-15.3-5.4-28.4-16.3-39.3C535.6,529.6,522.5,524.2,507.2,524.2 M504.2,529.3c0.3,0,0.6,0,0.9,0 c0.7,0,1.4,0,2.1,0c13.9,0,25.8,4.9,35.6,14.8c9.9,9.9,14.8,21.8,14.8,35.7s-4.9,25.8-14.8,35.6c-9.6,9.7-21.2,14.6-34.9,14.8 h-0.5c-0.1,0-0.1,0-0.2,0c-0.7,0-1.4,0-2,0h-0.1h-78.5V529.3H504.2 M687.4,533.8c-0.2-0.5-0.5-0.8-1-1.1 c-0.4-0.3-0.9-0.4-1.4-0.4c-15.8,0.3-29.3,4.9-40.6,13.7c-12,9.3-17.9,20.6-17.9,33.8s5.9,24.5,17.9,33.8 c11.8,9.1,26,13.7,42.6,13.7c13.2,0,24.9-2.9,35-8.7c0.6-0.3,0.9-0.7,1.1-1.4c0.2-0.6,0.2-1.2,0-1.8L687.4,533.8 M631.5,579.7 c0-11.6,5.4-21.6,16-29.8c10.1-7.8,22.1-12,36-12.5l34.1,77.9c-8.9,4.6-19.1,6.9-30.5,6.9c-15.4,0-28.6-4.2-39.5-12.6 C636.9,601.2,631.5,591.3,631.5,579.7 M371.9,579.7c0-13.6-6.1-25.2-18.6-34.9c-12.1-9.4-26.7-14-43.9-14 c-17.1,0-31.8,4.7-43.9,14c-12.4,9.7-18.5,21.3-18.5,34.9c0,13.6,6.1,25.2,18.5,34.8c12.1,9.5,26.8,14.2,43.9,14.2 c17.1,0,31.7-4.7,43.9-14.2C365.8,604.8,371.9,593.3,371.9,579.7 M350.3,548.7c11,8.6,16.6,18.9,16.6,31s-5.6,22.3-16.6,30.8 c-11.3,8.8-24.9,13.1-40.8,13.1c-15.9,0-29.6-4.4-40.8-13.1c-11-8.5-16.5-18.7-16.6-30.8c0-12.1,5.6-22.4,16.6-31 c11.3-8.7,24.9-13,40.8-13C325.4,535.7,339,540,350.3,548.7 M246.2,345c-0.5,0.5-0.7,1.1-0.7,1.8v100.5c0,0.7,0.2,1.3,0.7,1.8 s1.1,0.8,1.8,0.8h73.6c0.7,0,1.3-0.3,1.8-0.8l49.4-50.3c0.5-0.5,0.7-1.1,0.8-1.8c0-0.7-0.3-1.3-0.8-1.8L323.3,345 c-0.5-0.5-1.1-0.7-1.8-0.8h-73.6C247.3,344.2,246.7,344.5,246.2,345 M250.5,444.7v-95.5h70l47,47.7l-47,47.8H250.5 M285.6,161.3 c-0.6,0-1.1,0.2-1.5,0.6c-0.5,0.4-0.8,0.8-0.9,1.3l-24,101.1c-0.1,0.5-0.1,1,0.1,1.5s0.5,0.9,1,1.1c0.4,0.3,0.9,0.4,1.4,0.5h95.6 c0.5,0,1-0.2,1.4-0.5c0.4-0.3,0.7-0.7,0.9-1.1c0.2-0.5,0.2-1,0.1-1.5l-23.9-101.1c-0.1-0.5-0.4-1-0.9-1.3c-0.5-0.4-1-0.5-1.5-0.6 L285.6,161.3 M287.6,166.3h43.9l22.8,96.1H265L287.6,166.3 M721.4,352.9c0-0.7-0.2-1.3-0.8-1.8c-0.5-0.5-1.1-0.7-1.8-0.7h-88.1 c-0.7,0-1.3,0.2-1.8,0.7s-0.7,1.1-0.7,1.8V441c0,0.7,0.2,1.3,0.7,1.8s1.1,0.8,1.8,0.8h88.1c0.7,0,1.3-0.2,1.8-0.8 c0.5-0.5,0.8-1.1,0.8-1.8V352.9 M716.4,355.4v83.1h-83.1v-83.1H716.4 M495.2,338c-0.4-0.4-1-0.5-1.5-0.5c-0.6,0-1.1,0.2-1.5,0.5 L418,395c-0.4,0.3-0.7,0.8-0.8,1.3s-0.1,1,0,1.5c0.2,0.5,0.5,0.9,0.8,1.2l74.2,57c0.5,0.4,1,0.6,1.5,0.6c0.6,0,1.1-0.2,1.6-0.6 l71.1-57c0.4-0.3,0.7-0.7,0.8-1.3c0.2-0.5,0.2-0.9,0-1.4s-0.4-0.9-0.8-1.2L495.2,338 M493.7,450.8l-70-53.8l70-53.8l67.1,53.8 L493.7,450.8 M552.2,174.3c0-0.7-0.2-1.3-0.8-1.8c-0.5-0.5-1.1-0.7-1.8-0.7h-115c-0.7,0-1.3,0.2-1.8,0.7s-0.7,1.1-0.7,1.8v80 c0,0.7,0.2,1.3,0.7,1.7c0.5,0.5,1.1,0.8,1.8,0.8h115c0.7,0,1.3-0.2,1.8-0.8c0.5-0.5,0.8-1.1,0.8-1.7V174.3 M547.2,176.8v75h-110 v-75H547.2 M715,174.1c-11-11.1-24.4-16.6-40.1-16.6c-15.7,0-29.1,5.5-40.2,16.6c-11,11.1-16.6,24.5-16.5,40.2 c0,15.7,5.5,29.1,16.5,40.1c11.1,11.1,24.5,16.7,40.2,16.6c15.7,0,29.1-5.5,40.1-16.6c11.1-11,16.7-24.4,16.7-40.1 C731.6,198.6,726.1,185.2,715,174.1 M674.9,162.6c14.3,0,26.5,5.1,36.5,15.1c10.1,10.1,15.2,22.3,15.2,36.6 c0,14.3-5.1,26.5-15.2,36.6C701.3,261,689.2,266,674.9,266s-26.5-5.1-36.7-15.2c-10.1-10.1-15.1-22.2-15.1-36.6 c0-14.3,5-26.5,15.1-36.6C648.3,167.6,660.5,162.6,674.9,162.6z">
+                    </path>
+                </g>
+            </svg>
+        </div>
+        <div class="task4_pencils">
+            <div class="task4_pencil"><img data-color='red' class="task4_pencilImg" src="Images_5/assets4/red.png" alt="re6 pencil"></div>
+            <div class="task4_pencil"><img data-color='#fff' class="task4_pencilImg" src="Images_5/assets4/eraser.png" alt="eraser"></div>
+        </div>
+        <div class="task4_checkTask">
+            <button class="task4_reloadTask task1Btn">сброс &#8635; </button>
+            <div class="task4_chek_answer"></div>
+            <button class="task4_checkingTask task1Btn">проверить</button>
+        </div>
+    </div>
+
+    <a name="task5"></a>
+    <h3>Знаки сравнения </h3>
+    <div class="task5_wrapper task_wrapper">
+        <div class="task5_line">
+            <div class="task5_answer">
+                <div class="task5_answer_item">
+                    7
+                    <select id="task5_select_1">
+                        <option value="0"> ... </option>
+                        <option value="1"> &gt; </option>
+                        <option value="2"> = </option>
+                        <option value="3"> &lt; </option>
+                    </select>8
+                </div>
+                <div class="task5_answer_item">
+                    8
+                    <select id="task5_select_2">
+                        <option value="0"> ... </option>
+                        <option value="1"> &gt; </option>
+                        <option value="2"> = </option>
+                        <option value="3"> &lt; </option>
+                    </select>6
+                </div>
+                <div class="task5_answer_item">
+                    5
+                    <select id="task5_select_3">
+                        <option value="0"> ... </option>
+                        <option value="1"> &gt; </option>
+                        <option value="2"> = </option>
+                        <option value="3"> &lt; </option>
+                    </select>7
+                </div>
+                <div class="task5_answer_item">
+                    8
+                    <select id="task5_select_4">
+                        <option value="0"> ... </option>
+                        <option value="1"> &gt; </option>
+                        <option value="2"> = </option>
+                        <option value="3"> &lt; </option>
+                    </select>8
+                </div>
+
+
+            </div>
+        </div>
+        <div class="task5_line">
+            <div class="task5_answer">
+                <div class="task5_answer_item">
+                    6
+                    <select id="task5_select_5">
+                        <option value="0"> ... </option>
+                        <option value="1"> &gt; </option>
+                        <option value="2"> = </option>
+                        <option value="3"> &lt; </option>
+                    </select>4
+                </div>
+                <div class="task5_answer_item">
+                    4
+                    <select id="task5_select_6">
+                        <option value="0"> ... </option>
+                        <option value="1"> &gt; </option>
+                        <option value="2"> = </option>
+                        <option value="3"> &lt; </option>
+                    </select>4
+                </div>
+                <div class="task5_answer_item">
+                    7
+                    <select id="task5_select_7">
+                        <option value="0"> ... </option>
+                        <option value="1"> &gt; </option>
+                        <option value="2"> = </option>
+                        <option value="3"> &lt; </option>
+                    </select>5
+                </div>
+                <div class="task5_answer_item">
+                    8
+                    <select id="task5_select_8">
+                        <option value="0"> ... </option>
+                        <option value="1"> &gt; </option>
+                        <option value="2"> = </option>
+                        <option value="3"> &lt; </option>
+                    </select>7
+                </div>
+
+            </div>
+        </div>
+        <div class="task5_checkTask">
+            <button class="task5_reloadTask task1Btn">сброс &#8635; </button>
+            <div class="task5_chek_answer"></div>
+            <button class="task5_checkingTask task1Btn">проверить</button>
+        </div>
+    </div>
+
+    <a name="task6"></a>
+    <h3>Восьмой день недели </h3>
+    <div class="task6_wrapper task_wrapper">
+
+        <div class="task6_answers">
+
+        </div>
+        <div class="task6_checkTask">
+            <button class="task6_reloadTask task1Btn">сброс &#8635; </button>
+            <div class="task6_chek_answer"></div>
+            <button class="task6_checkingTask task1Btn">проверить</button>
+        </div>
+    </div>
+
+    <a name="task7"></a>
+    <h3>Число и цифра 8</h3>
+    <div class="task7_wrapper task_wrapper">
+        <div class="task7_begin"><button class="task7_start1">начать со звуком</button><button class="task7_start2">начать без звука</button></div>
+        <div class="task7_sliderWrapper">
+            <div class="task7_counting">Изображение <span class="task7_count1"></span> из <span class="task7_count2"></span></div>
+
+            <divc class="task7_slider">
+                <button class="task7_prev task7_btn"><img src="Images_5/assets4/prev.png" alt=""></button>
+                <div class="task7_slide">
+                    <div class="task7_img"></div>
+                </div>
+
+                <button class="task7_next task7_btn"><img src="Images_5/assets4/next.png" alt=""></button>
+            </divc>
+        </div>
+
+        <div class="task7_slide_caption"></div>
+
+
+        <audio class="task7_audio" src="sound/4/task7_1.mp3">
+            Your browser does not support the
+            <code>audio</code> element.s
+        </audio>
+        <audio class="task7_audio" src="sound/4/task7_2.mp3">
+            Your browser does not support the
+            <code>audio</code> element.
+        </audio>
+        <audio class="task7_audio" src="sound/4/task7_3.mp3">
+            Your browser does not support the
+            <code>audio</code> element.
+        </audio>
+        <audio class="task7_audio" src="sound/4/task7_4.mp3">
+            Your browser does not support the
+            <code>audio</code> element.
+        </audio>
+        <audio class="task7_audio" src="sound/4/task7_5.mp3">
+            Your browser does not support the
+            <code>audio</code> element.
+        </audio>
+    </div>
+
+    <a name="task8"></a>
+    <h3>Состав числа 9</h3>
+    <div class="task8_wrapper task_wrapper">
+        <div class="task8_answer">
+            <div class="task8_inputs">
+                <div> <span>9 = <input min="0" type="number" id='task8_1'>+<input min="0" type="number" id='task8_2'>
+                </div>
+                <div> <span>9 = <input min="0" type="number" id='task8_3'>+<input min="0" type="number" id='task8_4'>
+                </div>
+                <div> <span>9 = <input min="0" type="number" id='task8_5'>+<input min="0" type="number" id='task8_6'>
+                </div>
+                <div> <span>9 = <input min="0" type="number" id='task8_7'>+<input min="0" type="number" id='task8_8'>
+                </div>
+                <div> <span>9 = <input min="0" type="number" id='task8_9'>+<input min="0" type="number" id='task8_10'>
+                </div>
+                <div> <span>9 = <input min="0" type="number" id='task8_11'>+<input min="0" type="number" id='task8_12'>
+                </div>
+                <div> <span>9 = <input min="0" type="number" id='task8_13'>+<input min="0" type="number" id='task8_14'>
+                </div>
+                <div> <span>9 = <input min="0" type="number" id='task8_15'>+<input min="0" type="number" id='task8_16'>
+                </div>
+            </div>
+            <div class="task8_answerImg">
+                <img src="Images_5/assets4/task8_1.png" alt="">
+            </div>
+
+        </div>
+        <div class="task8_checkTask">
+            <button class="task8_reloadTask task1Btn">сброс &#8635; </button>
+            <div class="task8_chek_answer"></div>
+            <button class="task8_checkingTask task1Btn">проверить</button>
+        </div>
+    </div>
+
+    <a name="task9"></a>
+    <h3>Определяем время по часам</h3>
+    <div class="task9_wrapper task_wrapper">
+
+        <div class="task9_answers">
+
+        </div>
+        <div class="task9_checkTask">
+            <button class="task9_reloadTask task1Btn">сброс &#8635; </button>
+            <div class="task9_chek_answer"></div>
+            <button class="task9_checkingTask task1Btn">проверить</button>
+        </div>
+    </div>
+
+    <a name="task10"></a>
+    <h3>Фигура в таблице </h3>
+    <div class="task10_wrapper task_wrapper">
+        <div class="task10_circleWrapper">
+
+            <svg version="1.1" id="task10_svg" xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 800 100"
+                enable-background="new 0 0 800 100" xml:space="preserve">
+                <g class='task10_baloon task10_white' stroke-width="2" stroke="white" fill="white"
+                    startfillcolor="white" startstrokecolor="white">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M753.447,63.975c1.175,0.159,2.238-0.111,3.191-0.81 c0.953-0.697,1.524-1.65,1.715-2.856c0.189-1.208-0.063-2.286-0.763-3.239c-0.729-0.983-1.683-1.557-2.856-1.714 c-1.207-0.19-2.303,0.079-3.287,0.809c-0.952,0.699-1.523,1.651-1.714,2.857c-0.191,1.207,0.079,2.303,0.809,3.286 C751.272,63.229,752.241,63.784,753.447,63.975z M716.347,72.117c-6.096-8.256-8.365-17.447-6.81-27.576 c1.525-10.16,6.399-18.272,14.623-24.336s17.416-8.333,27.575-6.809c10.097,1.525,18.192,6.415,24.288,14.67 c6.064,8.224,8.318,17.4,6.762,27.528c-1.493,10.128-6.351,18.225-14.575,24.288c-8.255,6.096-17.431,8.381-27.527,6.856 C730.521,85.215,722.41,80.341,716.347,72.117z M755.925,47.497c1.175,0.158,2.238-0.111,3.191-0.81 c0.952-0.699,1.523-1.652,1.714-2.858c0.159-1.175-0.111-2.238-0.81-3.19c-0.667-0.985-1.604-1.572-2.81-1.763 c-1.206-0.191-2.302,0.08-3.286,0.81c-0.984,0.729-1.556,1.683-1.715,2.857c-0.189,1.207,0.079,2.302,0.81,3.287 C753.749,46.75,754.719,47.307,755.925,47.497z M742.59,41.114c0.19-1.207-0.063-2.287-0.762-3.239 c-0.73-0.984-1.698-1.572-2.905-1.762c-1.175-0.159-2.238,0.111-3.19,0.81c-0.985,0.729-1.572,1.698-1.764,2.905 c-0.157,1.175,0.111,2.239,0.811,3.191c0.729,0.984,1.683,1.556,2.856,1.714c1.207,0.19,2.287-0.063,3.24-0.761 C741.859,43.241,742.431,42.289,742.59,41.114z M732.302,59.497c0.699,0.953,1.651,1.524,2.858,1.715 c1.206,0.19,2.284-0.063,3.237-0.762c0.985-0.73,1.557-1.683,1.716-2.857c0.189-1.207-0.063-2.286-0.763-3.239 c-0.729-0.983-1.699-1.571-2.905-1.762c-1.174-0.158-2.238,0.111-3.191,0.81c-0.983,0.73-1.57,1.698-1.762,2.905 C731.334,57.481,731.604,58.545,732.302,59.497z">
+                    </path>
+                </g>
+                <g class='task10_baloon task10_white' stroke-width="2" stroke="white" fill="white"
+                    startfillcolor="white" startstrokecolor="white">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M667.299,63.975c1.175,0.159,2.238-0.111,3.191-0.81 c0.953-0.697,1.524-1.65,1.715-2.856c0.189-1.208-0.063-2.286-0.763-3.239c-0.729-0.983-1.683-1.557-2.856-1.714 c-1.207-0.19-2.303,0.079-3.287,0.809c-0.952,0.699-1.523,1.651-1.714,2.857c-0.191,1.207,0.079,2.303,0.809,3.286 C665.124,63.229,666.093,63.784,667.299,63.975z M630.198,72.117c-6.096-8.256-8.365-17.447-6.81-27.576 c1.525-10.16,6.399-18.272,14.623-24.336s17.416-8.333,27.575-6.809c10.097,1.525,18.192,6.415,24.288,14.67 c6.064,8.224,8.318,17.4,6.762,27.528c-1.493,10.128-6.351,18.225-14.575,24.288c-8.255,6.096-17.431,8.381-27.527,6.856 C644.373,85.215,636.262,80.341,630.198,72.117z M669.776,47.497c1.175,0.158,2.238-0.111,3.191-0.81 c0.952-0.699,1.523-1.652,1.714-2.858c0.159-1.175-0.111-2.238-0.81-3.19c-0.667-0.985-1.604-1.572-2.81-1.763 c-1.206-0.191-2.302,0.08-3.286,0.81c-0.984,0.729-1.556,1.683-1.715,2.857c-0.189,1.207,0.079,2.302,0.81,3.287 C667.601,46.75,668.57,47.307,669.776,47.497z M656.441,41.114c0.19-1.207-0.063-2.287-0.762-3.239 c-0.73-0.984-1.698-1.572-2.905-1.762c-1.175-0.159-2.238,0.111-3.19,0.81c-0.985,0.729-1.572,1.698-1.764,2.905 c-0.157,1.175,0.111,2.239,0.811,3.191c0.729,0.984,1.683,1.556,2.856,1.714c1.207,0.19,2.287-0.063,3.24-0.761 C655.711,43.241,656.282,42.289,656.441,41.114z M646.153,59.497c0.699,0.953,1.651,1.524,2.858,1.715 c1.206,0.19,2.284-0.063,3.237-0.762c0.985-0.73,1.557-1.683,1.716-2.857c0.189-1.207-0.063-2.286-0.763-3.239 c-0.729-0.983-1.699-1.571-2.905-1.762c-1.174-0.158-2.238,0.111-3.191,0.81c-0.983,0.73-1.57,1.698-1.762,2.905 C645.186,57.481,645.455,58.545,646.153,59.497z">
+                    </path>
+                </g>
+                <g class='task10_baloon task10_white' stroke-width="2" stroke="white" fill="white"
+                    startfillcolor="white" startstrokecolor="white">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M581.151,63.975c1.174,0.159,2.238-0.111,3.191-0.81 c0.953-0.697,1.523-1.65,1.715-2.856c0.189-1.208-0.064-2.286-0.764-3.239c-0.729-0.983-1.682-1.557-2.855-1.714 c-1.207-0.19-2.303,0.079-3.287,0.809c-0.953,0.699-1.523,1.651-1.715,2.857c-0.191,1.207,0.08,2.303,0.809,3.286 C578.976,63.229,579.944,63.784,581.151,63.975z M544.05,72.117c-6.096-8.256-8.365-17.447-6.809-27.576 c1.525-10.16,6.398-18.272,14.623-24.336c8.223-6.064,17.416-8.333,27.574-6.809c10.098,1.525,18.193,6.415,24.289,14.67 c6.064,8.224,8.318,17.4,6.762,27.528c-1.494,10.128-6.352,18.225-14.576,24.288c-8.254,6.096-17.43,8.381-27.527,6.856 C558.226,85.215,550.114,80.341,544.05,72.117z M583.628,47.497c1.176,0.158,2.238-0.111,3.191-0.81 c0.953-0.699,1.523-1.652,1.715-2.858c0.158-1.175-0.111-2.238-0.811-3.19c-0.666-0.985-1.604-1.572-2.809-1.763 c-1.207-0.191-2.303,0.08-3.287,0.81c-0.984,0.729-1.555,1.683-1.715,2.857c-0.189,1.207,0.08,2.302,0.811,3.287 C581.452,46.75,582.423,47.307,583.628,47.497z M570.294,41.114c0.189-1.207-0.064-2.287-0.762-3.239 c-0.73-0.984-1.699-1.572-2.906-1.762c-1.174-0.159-2.238,0.111-3.189,0.81c-0.986,0.729-1.572,1.698-1.764,2.905 c-0.158,1.175,0.111,2.239,0.811,3.191c0.729,0.984,1.682,1.556,2.855,1.714c1.207,0.19,2.287-0.063,3.24-0.761 C569.563,43.241,570.134,42.289,570.294,41.114z M560.005,59.497c0.699,0.953,1.652,1.524,2.859,1.715 c1.205,0.19,2.283-0.063,3.236-0.762c0.986-0.73,1.557-1.683,1.717-2.857c0.189-1.207-0.064-2.286-0.764-3.239 c-0.729-0.983-1.699-1.571-2.904-1.762c-1.174-0.158-2.238,0.111-3.191,0.81c-0.984,0.73-1.57,1.698-1.762,2.905 C559.038,57.481,559.308,58.545,560.005,59.497z">
+                    </path>
+                </g>
+                <g class='task10_baloon task10_blue' id="blue" stroke-width="2" stroke="white" fill="white"
+                    neededcolor="1" startfillcolor="white" startstrokecolor="white" color="1" colored="true">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M64.261,63.975c1.175,0.159,2.238-0.111,3.191-0.81 c0.953-0.697,1.524-1.65,1.715-2.856c0.189-1.208-0.063-2.286-0.763-3.239c-0.729-0.983-1.683-1.557-2.856-1.714 c-1.207-0.19-2.303,0.079-3.287,0.809c-0.952,0.699-1.523,1.651-1.714,2.857c-0.191,1.207,0.079,2.303,0.809,3.286 C62.086,63.229,63.055,63.784,64.261,63.975z M27.161,72.117c-6.096-8.256-8.365-17.447-6.81-27.576 c1.525-10.16,6.399-18.272,14.623-24.336s17.416-8.333,27.575-6.809c10.097,1.525,18.192,6.415,24.288,14.67 c6.064,8.224,8.318,17.4,6.762,27.528c-1.493,10.128-6.351,18.225-14.575,24.288c-8.255,6.096-17.431,8.381-27.527,6.856 C41.335,85.215,33.224,80.341,27.161,72.117z M66.739,47.497c1.175,0.158,2.238-0.111,3.191-0.81 c0.952-0.699,1.523-1.652,1.714-2.858c0.159-1.175-0.111-2.238-0.81-3.19c-0.667-0.985-1.604-1.572-2.81-1.763 c-1.206-0.191-2.302,0.08-3.286,0.81c-0.984,0.729-1.556,1.683-1.715,2.857c-0.189,1.207,0.079,2.302,0.81,3.287 C64.563,46.75,65.533,47.307,66.739,47.497z M53.404,41.114c0.19-1.207-0.063-2.287-0.762-3.239 c-0.73-0.984-1.698-1.572-2.905-1.762c-1.175-0.159-2.238,0.111-3.19,0.81c-0.985,0.729-1.572,1.698-1.764,2.905 c-0.157,1.175,0.111,2.239,0.811,3.191c0.729,0.984,1.683,1.556,2.856,1.714c1.207,0.19,2.287-0.063,3.24-0.761 C52.673,43.241,53.245,42.289,53.404,41.114z M43.116,59.497c0.699,0.953,1.651,1.524,2.858,1.715 c1.206,0.19,2.284-0.063,3.237-0.762c0.985-0.73,1.557-1.683,1.716-2.857c0.189-1.207-0.063-2.286-0.763-3.239 c-0.729-0.983-1.699-1.571-2.905-1.762c-1.174-0.158-2.238,0.111-3.191,0.81c-0.983,0.73-1.57,1.698-1.762,2.905 C42.148,57.481,42.417,58.545,43.116,59.497z">
+                    </path>
+                </g>
+                <g class='task10_baloon task10_white' stroke-width="2" stroke="white" fill="white"
+                    startfillcolor="white" startstrokecolor="white">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M150.409,63.975c1.175,0.159,2.238-0.111,3.191-0.81 c0.953-0.697,1.524-1.65,1.715-2.856c0.189-1.208-0.063-2.286-0.763-3.239c-0.729-0.983-1.683-1.557-2.856-1.714 c-1.207-0.19-2.303,0.079-3.287,0.809c-0.952,0.699-1.523,1.651-1.714,2.857c-0.191,1.207,0.079,2.303,0.809,3.286 C148.234,63.229,149.203,63.784,150.409,63.975z M113.309,72.117c-6.096-8.256-8.365-17.447-6.81-27.576 c1.525-10.16,6.399-18.272,14.623-24.336c8.223-6.064,17.416-8.333,27.575-6.809c10.097,1.525,18.192,6.415,24.288,14.67 c6.064,8.224,8.318,17.4,6.762,27.528c-1.493,10.128-6.351,18.225-14.575,24.288c-8.255,6.096-17.431,8.381-27.527,6.856 C127.484,85.215,119.373,80.341,113.309,72.117z M152.887,47.497c1.175,0.158,2.238-0.111,3.191-0.81 c0.952-0.699,1.523-1.652,1.714-2.858c0.159-1.175-0.111-2.238-0.81-3.19c-0.667-0.985-1.604-1.572-2.81-1.763 c-1.206-0.191-2.302,0.08-3.286,0.81c-0.984,0.729-1.556,1.683-1.715,2.857c-0.189,1.207,0.079,2.302,0.81,3.287 C150.711,46.75,151.681,47.307,152.887,47.497z M139.552,41.114c0.19-1.207-0.063-2.287-0.762-3.239 c-0.73-0.984-1.698-1.572-2.905-1.762c-1.175-0.159-2.238,0.111-3.19,0.81c-0.985,0.729-1.572,1.698-1.764,2.905 c-0.157,1.175,0.111,2.239,0.811,3.191c0.729,0.984,1.683,1.556,2.856,1.714c1.207,0.19,2.287-0.063,3.24-0.761 C138.821,43.241,139.393,42.289,139.552,41.114z M129.264,59.497c0.699,0.953,1.651,1.524,2.858,1.715 c1.206,0.19,2.284-0.063,3.237-0.762c0.985-0.73,1.557-1.683,1.716-2.857c0.189-1.207-0.063-2.286-0.763-3.239 c-0.729-0.983-1.699-1.571-2.905-1.762c-1.174-0.158-2.238,0.111-3.191,0.81c-0.983,0.73-1.57,1.698-1.762,2.905 C128.296,57.481,128.565,58.545,129.264,59.497z">
+                    </path>
+                </g>
+                <g class='task10_baloon task10_white' stroke-width="2" stroke="white" fill="white"
+                    startfillcolor="white" startstrokecolor="white">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M236.558,63.975c1.175,0.159,2.238-0.111,3.191-0.81 c0.953-0.697,1.524-1.65,1.715-2.856c0.189-1.208-0.063-2.286-0.763-3.239c-0.729-0.983-1.683-1.557-2.856-1.714 c-1.207-0.19-2.303,0.079-3.287,0.809c-0.952,0.699-1.523,1.651-1.714,2.857c-0.191,1.207,0.079,2.303,0.809,3.286 C234.383,63.229,235.352,63.784,236.558,63.975z M199.457,72.117c-6.096-8.256-8.365-17.447-6.81-27.576 c1.525-10.16,6.399-18.272,14.623-24.336s17.416-8.333,27.575-6.809c10.097,1.525,18.192,6.415,24.288,14.67 c6.064,8.224,8.318,17.4,6.762,27.528c-1.493,10.128-6.351,18.225-14.575,24.288c-8.255,6.096-17.431,8.381-27.527,6.856 C213.632,85.215,205.521,80.341,199.457,72.117z M239.035,47.497c1.175,0.158,2.238-0.111,3.191-0.81 c0.952-0.699,1.523-1.652,1.714-2.858c0.159-1.175-0.111-2.238-0.81-3.19c-0.667-0.985-1.604-1.572-2.81-1.763 c-1.206-0.191-2.302,0.08-3.286,0.81c-0.984,0.729-1.556,1.683-1.715,2.857c-0.189,1.207,0.079,2.302,0.81,3.287 C236.859,46.75,237.829,47.307,239.035,47.497z M225.7,41.114c0.19-1.207-0.063-2.287-0.762-3.239 c-0.73-0.984-1.698-1.572-2.905-1.762c-1.175-0.159-2.238,0.111-3.19,0.81c-0.985,0.729-1.572,1.698-1.764,2.905 c-0.157,1.175,0.111,2.239,0.811,3.191c0.729,0.984,1.683,1.556,2.856,1.714c1.207,0.19,2.287-0.063,3.24-0.761 C224.97,43.241,225.541,42.289,225.7,41.114z M215.412,59.497c0.699,0.953,1.651,1.524,2.858,1.715 c1.206,0.19,2.284-0.063,3.237-0.762c0.985-0.73,1.557-1.683,1.716-2.857c0.189-1.207-0.063-2.286-0.763-3.239 c-0.729-0.983-1.699-1.571-2.905-1.762c-1.174-0.158-2.238,0.111-3.191,0.81c-0.983,0.73-1.57,1.698-1.762,2.905 C214.444,57.481,214.714,58.545,215.412,59.497z">
+                    </path>
+                </g>
+                <g class='task10_baloon task10_white' stroke-width="2" stroke="white" fill="white"
+                    startfillcolor="white" startstrokecolor="white">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M322.706,63.975c1.175,0.159,2.238-0.111,3.191-0.81 c0.953-0.697,1.524-1.65,1.715-2.856c0.189-1.208-0.063-2.286-0.763-3.239c-0.729-0.983-1.683-1.557-2.856-1.714 c-1.207-0.19-2.303,0.079-3.287,0.809c-0.952,0.699-1.523,1.651-1.714,2.857c-0.191,1.207,0.079,2.303,0.809,3.286 C320.531,63.229,321.5,63.784,322.706,63.975z M285.605,72.117c-6.096-8.256-8.365-17.447-6.81-27.576 c1.525-10.16,6.399-18.272,14.623-24.336s17.416-8.333,27.575-6.809c10.097,1.525,18.192,6.415,24.288,14.67 c6.064,8.224,8.318,17.4,6.762,27.528c-1.493,10.128-6.351,18.225-14.575,24.288c-8.255,6.096-17.431,8.381-27.527,6.856 C299.78,85.215,291.669,80.341,285.605,72.117z M325.184,47.497c1.175,0.158,2.238-0.111,3.191-0.81 c0.952-0.699,1.523-1.652,1.714-2.858c0.159-1.175-0.111-2.238-0.81-3.19c-0.667-0.985-1.604-1.572-2.81-1.763 c-1.206-0.191-2.302,0.08-3.286,0.81c-0.984,0.729-1.556,1.683-1.715,2.857c-0.189,1.207,0.079,2.302,0.81,3.287 C323.008,46.75,323.978,47.307,325.184,47.497z M311.849,41.114c0.19-1.207-0.063-2.287-0.762-3.239 c-0.73-0.984-1.698-1.572-2.905-1.762c-1.175-0.159-2.238,0.111-3.19,0.81c-0.985,0.729-1.572,1.698-1.764,2.905 c-0.157,1.175,0.111,2.239,0.811,3.191c0.729,0.984,1.683,1.556,2.856,1.714c1.207,0.19,2.287-0.063,3.24-0.761 C311.118,43.241,311.689,42.289,311.849,41.114z M301.561,59.497c0.699,0.953,1.651,1.524,2.858,1.715 c1.206,0.19,2.284-0.063,3.237-0.762c0.985-0.73,1.557-1.683,1.716-2.857c0.189-1.207-0.063-2.286-0.763-3.239 c-0.729-0.983-1.699-1.571-2.905-1.762c-1.174-0.158-2.238,0.111-3.191,0.81c-0.983,0.73-1.57,1.698-1.762,2.905 C300.593,57.481,300.862,58.545,301.561,59.497z">
+                    </path>
+                </g>
+                <g class='task10_baloon task10_white' stroke-width="2" stroke="white" fill="white"
+                    startfillcolor="white" startstrokecolor="white">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M408.854,63.975c1.175,0.159,2.238-0.111,3.191-0.81 c0.953-0.697,1.524-1.65,1.715-2.856c0.189-1.208-0.063-2.286-0.763-3.239c-0.729-0.983-1.683-1.557-2.856-1.714 c-1.207-0.19-2.303,0.079-3.287,0.809c-0.952,0.699-1.523,1.651-1.714,2.857c-0.191,1.207,0.079,2.303,0.809,3.286 C406.68,63.229,407.648,63.784,408.854,63.975z M371.753,72.117c-6.096-8.256-8.365-17.447-6.81-27.576 c1.525-10.16,6.399-18.272,14.624-24.336c8.224-6.064,17.416-8.333,27.575-6.809c10.097,1.525,18.192,6.415,24.288,14.67 c6.064,8.224,8.318,17.4,6.762,27.528c-1.493,10.128-6.351,18.225-14.575,24.288c-8.255,6.096-17.431,8.381-27.527,6.856 C385.929,85.215,377.817,80.341,371.753,72.117z M411.332,47.497c1.175,0.158,2.238-0.111,3.191-0.81 c0.952-0.699,1.523-1.652,1.714-2.858c0.159-1.175-0.111-2.238-0.81-3.19c-0.667-0.985-1.604-1.572-2.81-1.763 c-1.206-0.191-2.302,0.08-3.286,0.81c-0.984,0.729-1.556,1.683-1.715,2.857c-0.189,1.207,0.079,2.302,0.81,3.287 C409.156,46.75,410.126,47.307,411.332,47.497z M397.997,41.114c0.19-1.207-0.063-2.287-0.762-3.239 c-0.73-0.984-1.698-1.572-2.905-1.762c-1.175-0.159-2.238,0.111-3.19,0.81c-0.985,0.729-1.572,1.698-1.764,2.905 c-0.157,1.175,0.111,2.239,0.811,3.191c0.729,0.984,1.683,1.556,2.856,1.714c1.207,0.19,2.287-0.063,3.24-0.761 C397.267,43.241,397.838,42.289,397.997,41.114z M387.709,59.497c0.699,0.953,1.651,1.524,2.858,1.715 c1.206,0.19,2.284-0.063,3.237-0.762c0.985-0.73,1.557-1.683,1.716-2.857c0.189-1.207-0.063-2.286-0.763-3.239 c-0.729-0.983-1.699-1.571-2.905-1.762c-1.174-0.158-2.238,0.111-3.191,0.81c-0.983,0.73-1.57,1.698-1.762,2.905 C386.741,57.481,387.011,58.545,387.709,59.497z">
+                    </path>
+                </g>
+                <g class='task10_baloon task10_white' stroke-width="2" stroke="white" fill="white"
+                    startfillcolor="white" startstrokecolor="white">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M495.003,63.975c1.175,0.159,2.238-0.111,3.191-0.81 c0.953-0.697,1.524-1.65,1.715-2.856c0.189-1.208-0.063-2.286-0.763-3.239c-0.729-0.983-1.683-1.557-2.856-1.714 c-1.207-0.19-2.303,0.079-3.287,0.809c-0.952,0.699-1.523,1.651-1.714,2.857c-0.191,1.207,0.079,2.303,0.809,3.286 C492.828,63.229,493.797,63.784,495.003,63.975z M457.902,72.117c-6.096-8.256-8.365-17.447-6.81-27.576 c1.525-10.16,6.399-18.272,14.623-24.336s17.416-8.333,27.575-6.809c10.097,1.525,18.192,6.415,24.287,14.67 c6.064,8.224,8.318,17.4,6.762,27.528c-1.492,10.128-6.35,18.225-14.574,24.288c-8.255,6.096-17.431,8.381-27.527,6.856 C472.077,85.215,463.966,80.341,457.902,72.117z M497.48,47.497c1.175,0.158,2.238-0.111,3.191-0.81 c0.952-0.699,1.523-1.652,1.714-2.858c0.159-1.175-0.111-2.238-0.81-3.19c-0.667-0.985-1.604-1.572-2.81-1.763 c-1.206-0.191-2.302,0.08-3.286,0.81c-0.984,0.729-1.556,1.683-1.715,2.857c-0.189,1.207,0.079,2.302,0.81,3.287 C495.305,46.75,496.274,47.307,497.48,47.497z M484.146,41.114c0.19-1.207-0.063-2.287-0.762-3.239 c-0.73-0.984-1.698-1.572-2.905-1.762c-1.175-0.159-2.238,0.111-3.19,0.81c-0.985,0.729-1.572,1.698-1.764,2.905 c-0.157,1.175,0.111,2.239,0.811,3.191c0.729,0.984,1.683,1.556,2.856,1.714c1.207,0.19,2.287-0.063,3.24-0.761 C483.415,43.241,483.986,42.289,484.146,41.114z M473.857,59.497c0.699,0.953,1.651,1.524,2.858,1.715 c1.206,0.19,2.284-0.063,3.237-0.762c0.985-0.73,1.557-1.683,1.716-2.857c0.189-1.207-0.063-2.286-0.763-3.239 c-0.729-0.983-1.699-1.571-2.905-1.762c-1.174-0.158-2.238,0.111-3.191,0.81c-0.983,0.73-1.57,1.698-1.762,2.905 C472.89,57.481,473.159,58.545,473.857,59.497z">
+                    </path>
+                </g>
+                <g id="kontur" stoppainting="true">
+                    <circle fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-miterlimit="10"
+                        cx="738.146" cy="40.336" r="4.414"></circle>
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M728.227,17.287c4.286-2.318,8.778-3.731,13.478-4.238 c4.699-0.571,9.381-0.206,14.049,1.096c4.697,1.27,8.921,3.334,12.666,6.191l-0.237,0.334c-4.826-2.541-9.144-4.064-12.953-4.573 c-4.412-0.857-8.811-0.874-13.191-0.048c-4.382,0.761-8.429,2.206-12.144,4.333c-3.873,2.222-7.097,5-9.667,8.333 c-2.795,3.111-4.922,6.794-6.383,11.048c-1.429,4.032-2.111,8.271-2.049,12.715c0,4.381,0.825,8.699,2.476,12.953 c1.207,3.555,3.493,7.525,6.857,11.906l-0.285,0.285c-3.46-3.207-6.254-6.984-8.382-11.335c-2.157-4.381-3.396-8.92-3.713-13.619 c-0.318-4.763,0.271-9.445,1.762-14.049c1.462-4.635,3.716-8.762,6.764-12.382C720.29,22.588,723.94,19.604,728.227,17.287z">
+                    </path>
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M721.128,77.338c4.571,3.111,8.984,5.143,13.238,6.096 c4.667,1.302,9.35,1.635,14.049,1.001c4.667-0.539,9.032-1.921,13.097-4.143c4.19-2.222,7.683-5.111,10.478-8.667 c2.952-3.396,5.159-7.349,6.62-11.856c1.364-4.414,1.889-8.969,1.571-13.668c-0.222-4.667-1.412-9.191-3.571-13.572 c-1.745-4.032-4.555-7.985-8.428-11.858l0.237-0.334c4.064,2.984,7.382,6.715,9.953,11.192c2.635,4.477,4.237,9.223,4.809,14.24 c0.636,5.016,0.237,10.016-1.19,15.001c-1.461,5.016-3.811,9.46-7.049,13.333c-3.271,3.904-7.207,7.017-11.811,9.334 c-4.636,2.349-9.477,3.698-14.525,4.047c-5.048,0.285-10.016-0.43-14.905-2.144c-4.857-1.747-9.144-4.318-12.857-7.716 L721.128,77.338z">
+                    </path>
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M724.51,66.051c4.413,5.938,10.255,9.462,17.524,10.573 c7.334,1.111,13.969-0.539,19.906-4.951c5.969-4.382,9.493-10.223,10.573-17.524c1.08-7.303-0.555-13.922-4.904-19.859 c-4.413-5.938-10.254-9.461-17.524-10.573c-7.303-1.143-13.922,0.492-19.858,4.905c-5.969,4.38-9.493,10.222-10.573,17.523 C718.542,53.479,720.161,60.114,724.51,66.051z M729.036,27.145c6.381-4.731,13.493-6.507,21.335-5.333 c7.811,1.207,14.064,4.985,18.762,11.335c4.73,6.381,6.492,13.477,5.285,21.288c-1.207,7.809-4.984,14.063-11.335,18.762 c-6.381,4.73-13.477,6.492-21.287,5.285c-7.841-1.175-14.111-4.938-18.811-11.288c-4.729-6.381-6.491-13.478-5.284-21.286 C718.908,38.097,722.687,31.843,729.036,27.145z">
+                    </path>
+                    <circle fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-miterlimit="10"
+                        cx="756.262" cy="43.024" r="4.414"></circle>
+                    <circle fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-miterlimit="10"
+                        cx="735.896" cy="56.586" r="4.414"></circle>
+                    <circle fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-miterlimit="10"
+                        cx="754.012" cy="59.273" r="4.414"></circle>
+                    <circle fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-miterlimit="10"
+                        cx="651.998" cy="40.336" r="4.414"></circle>
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M642.078,17.287c4.286-2.318,8.778-3.731,13.478-4.238 c4.699-0.571,9.381-0.206,14.049,1.096c4.697,1.27,8.921,3.334,12.666,6.191l-0.237,0.334c-4.826-2.541-9.144-4.064-12.953-4.573 c-4.412-0.857-8.811-0.874-13.191-0.048c-4.382,0.761-8.429,2.206-12.144,4.333c-3.873,2.222-7.097,5-9.667,8.333 c-2.795,3.111-4.922,6.794-6.383,11.048c-1.429,4.032-2.111,8.271-2.049,12.715c0,4.381,0.825,8.699,2.476,12.953 c1.207,3.555,3.493,7.525,6.857,11.906l-0.285,0.285c-3.46-3.207-6.254-6.984-8.382-11.335c-2.157-4.381-3.396-8.92-3.713-13.619 c-0.318-4.763,0.271-9.445,1.762-14.049c1.462-4.635,3.716-8.762,6.764-12.382C634.142,22.588,637.792,19.604,642.078,17.287z">
+                    </path>
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M634.979,77.338c4.571,3.111,8.984,5.143,13.238,6.096 c4.667,1.302,9.35,1.635,14.049,1.001c4.667-0.539,9.032-1.921,13.097-4.143c4.19-2.222,7.683-5.111,10.478-8.667 c2.952-3.396,5.159-7.349,6.62-11.856c1.364-4.414,1.889-8.97,1.571-13.668c-0.222-4.667-1.412-9.191-3.571-13.572 c-1.745-4.032-4.555-7.985-8.428-11.858l0.237-0.334c4.064,2.984,7.382,6.715,9.953,11.192c2.635,4.477,4.237,9.223,4.809,14.24 c0.636,5.016,0.237,10.016-1.19,15.001c-1.461,5.016-3.811,9.46-7.049,13.333c-3.271,3.904-7.207,7.017-11.811,9.334 c-4.636,2.349-9.477,3.698-14.525,4.047c-5.048,0.285-10.016-0.43-14.905-2.144c-4.857-1.747-9.144-4.318-12.857-7.716 L634.979,77.338z">
+                    </path>
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M638.361,66.051c4.413,5.938,10.255,9.462,17.524,10.573 c7.334,1.111,13.969-0.539,19.906-4.951c5.969-4.382,9.493-10.223,10.573-17.524c1.08-7.303-0.555-13.922-4.904-19.859 c-4.413-5.938-10.254-9.461-17.524-10.573c-7.303-1.143-13.922,0.492-19.858,4.905c-5.969,4.38-9.493,10.222-10.573,17.523 C632.394,53.479,634.013,60.114,638.361,66.051z M642.888,27.145c6.381-4.731,13.493-6.507,21.335-5.333 c7.811,1.207,14.064,4.985,18.762,11.335c4.73,6.381,6.492,13.477,5.285,21.288c-1.207,7.809-4.984,14.063-11.335,18.762 c-6.381,4.73-13.477,6.492-21.287,5.285c-7.841-1.175-14.111-4.938-18.811-11.288c-4.729-6.381-6.491-13.478-5.284-21.286 C632.76,38.097,636.538,31.843,642.888,27.145z">
+                    </path>
+                    <circle fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-miterlimit="10"
+                        cx="670.114" cy="43.024" r="4.414"></circle>
+                    <circle fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-miterlimit="10"
+                        cx="649.748" cy="56.586" r="4.414"></circle>
+                    <circle fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-miterlimit="10"
+                        cx="667.864" cy="59.273" r="4.414"></circle>
+                    <circle fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-miterlimit="10"
+                        cx="565.85" cy="40.336" r="4.413"></circle>
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M555.931,17.287c4.285-2.318,8.777-3.731,13.477-4.238 c4.699-0.571,9.381-0.206,14.049,1.096c4.697,1.27,8.922,3.334,12.666,6.191l-0.236,0.334c-4.826-2.541-9.145-4.064-12.953-4.573 c-4.412-0.857-8.811-0.874-13.191-0.048c-4.383,0.761-8.43,2.206-12.145,4.333c-3.873,2.222-7.096,5-9.666,8.333 c-2.795,3.111-4.922,6.794-6.383,11.048c-1.43,4.032-2.111,8.271-2.049,12.715c0,4.381,0.824,8.699,2.475,12.953 c1.207,3.555,3.494,7.525,6.857,11.906l-0.285,0.285c-3.459-3.207-6.254-6.984-8.381-11.335c-2.158-4.381-3.396-8.92-3.713-13.619 c-0.318-4.763,0.27-9.445,1.762-14.049c1.461-4.635,3.715-8.762,6.764-12.382C547.993,22.588,551.644,19.604,555.931,17.287z">
+                    </path>
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M548.831,77.338c4.572,3.111,8.984,5.143,13.238,6.096 c4.668,1.302,9.35,1.635,14.049,1.001c4.668-0.539,9.033-1.921,13.098-4.143c4.189-2.222,7.682-5.111,10.477-8.667 c2.953-3.396,5.16-7.349,6.621-11.856c1.363-4.414,1.889-8.97,1.57-13.668c-0.221-4.667-1.412-9.191-3.57-13.572 c-1.746-4.032-4.555-7.985-8.428-11.858l0.236-0.334c4.064,2.984,7.383,6.715,9.953,11.192c2.635,4.477,4.238,9.223,4.809,14.24 c0.637,5.016,0.238,10.016-1.189,15.001c-1.461,5.016-3.811,9.46-7.049,13.333c-3.271,3.904-7.207,7.017-11.811,9.334 c-4.637,2.349-9.477,3.698-14.525,4.047c-5.049,0.285-10.016-0.43-14.906-2.144c-4.857-1.747-9.143-4.318-12.857-7.716 L548.831,77.338z">
+                    </path>
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M552.214,66.051c4.412,5.938,10.254,9.462,17.523,10.573 c7.334,1.111,13.969-0.539,19.906-4.951c5.969-4.382,9.494-10.223,10.574-17.524c1.08-7.303-0.555-13.922-4.904-19.859 c-4.414-5.938-10.254-9.461-17.525-10.573c-7.303-1.143-13.922,0.492-19.857,4.905c-5.969,4.38-9.494,10.222-10.574,17.523 C546.245,53.479,547.864,60.114,552.214,66.051z M556.739,27.145c6.381-4.731,13.494-6.507,21.336-5.333 c7.811,1.207,14.064,4.985,18.762,11.335c4.73,6.381,6.492,13.477,5.285,21.288c-1.207,7.809-4.984,14.063-11.336,18.762 c-6.381,4.73-13.477,6.492-21.287,5.285c-7.84-1.175-14.111-4.938-18.811-11.288c-4.729-6.381-6.49-13.478-5.283-21.286 C546.612,38.097,550.39,31.843,556.739,27.145z">
+                    </path>
+                    <circle fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-miterlimit="10"
+                        cx="583.966" cy="43.024" r="4.414"></circle>
+                    <circle fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-miterlimit="10"
+                        cx="563.6" cy="56.586" r="4.413"></circle>
+                    <circle fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-miterlimit="10"
+                        cx="581.716" cy="59.273" r="4.414"></circle>
+                    <circle fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-miterlimit="10"
+                        cx="48.96" cy="40.336" r="4.414"></circle>
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M39.041,17.287c4.286-2.318,8.778-3.731,13.478-4.238 c4.699-0.571,9.381-0.206,14.049,1.096c4.697,1.27,8.921,3.334,12.666,6.191l-0.237,0.334c-4.826-2.541-9.144-4.064-12.953-4.573 c-4.412-0.857-8.811-0.874-13.191-0.048c-4.382,0.761-8.429,2.206-12.144,4.333c-3.873,2.222-7.097,5-9.667,8.333 c-2.795,3.111-4.922,6.794-6.383,11.048c-1.429,4.032-2.111,8.271-2.049,12.715c0,4.381,0.825,8.699,2.476,12.953 c1.207,3.555,3.493,7.525,6.857,11.906l-0.285,0.285c-3.46-3.207-6.254-6.984-8.382-11.335c-2.157-4.381-3.396-8.92-3.713-13.619 c-0.318-4.763,0.271-9.445,1.762-14.049c1.462-4.635,3.716-8.762,6.764-12.382C31.104,22.588,34.754,19.604,39.041,17.287z">
+                    </path>
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M31.942,77.338c4.571,3.111,8.984,5.143,13.238,6.096 c4.667,1.302,9.35,1.635,14.049,1.001c4.667-0.539,9.032-1.921,13.097-4.143c4.19-2.222,7.683-5.111,10.478-8.667 c2.952-3.396,5.159-7.349,6.62-11.856c1.364-4.414,1.889-8.97,1.571-13.668c-0.222-4.667-1.412-9.191-3.571-13.572 c-1.745-4.032-4.555-7.985-8.428-11.858l0.237-0.334c4.064,2.984,7.382,6.715,9.953,11.192c2.635,4.477,4.237,9.223,4.809,14.24 c0.636,5.016,0.237,10.016-1.19,15.001c-1.461,5.016-3.811,9.46-7.049,13.333c-3.271,3.904-7.207,7.017-11.811,9.334 c-4.636,2.349-9.477,3.698-14.525,4.047c-5.048,0.285-10.016-0.43-14.905-2.144c-4.857-1.747-9.144-4.318-12.857-7.716 L31.942,77.338z">
+                    </path>
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M35.324,66.051c4.413,5.938,10.255,9.462,17.524,10.573 c7.334,1.111,13.969-0.539,19.906-4.951c5.969-4.382,9.493-10.223,10.573-17.524c1.08-7.303-0.555-13.922-4.904-19.859 c-4.413-5.938-10.254-9.461-17.524-10.573c-7.303-1.143-13.922,0.492-19.858,4.905c-5.969,4.38-9.493,10.222-10.573,17.523 C29.356,53.479,30.975,60.114,35.324,66.051z M39.85,27.145c6.381-4.731,13.493-6.507,21.335-5.333 c7.811,1.207,14.064,4.985,18.762,11.335c4.73,6.381,6.492,13.477,5.285,21.288c-1.207,7.809-4.984,14.063-11.335,18.762 c-6.381,4.73-13.477,6.492-21.287,5.285c-7.841-1.175-14.111-4.938-18.811-11.288c-4.729-6.381-6.491-13.478-5.284-21.286 C29.722,38.097,33.5,31.843,39.85,27.145z">
+                    </path>
+                    <circle fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-miterlimit="10"
+                        cx="67.076" cy="43.024" r="4.414"></circle>
+                    <circle fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-miterlimit="10"
+                        cx="46.71" cy="56.586" r="4.414"></circle>
+                    <circle fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-miterlimit="10"
+                        cx="64.826" cy="59.273" r="4.414"></circle>
+                    <circle fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-miterlimit="10"
+                        cx="135.108" cy="40.336" r="4.414"></circle>
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M125.189,17.287c4.286-2.318,8.778-3.731,13.477-4.238 c4.699-0.571,9.381-0.206,14.049,1.096c4.697,1.27,8.921,3.334,12.666,6.191l-0.237,0.334c-4.826-2.541-9.144-4.064-12.953-4.573 c-4.412-0.857-8.811-0.874-13.191-0.048c-4.382,0.761-8.429,2.206-12.143,4.333c-3.873,2.222-7.097,5-9.667,8.333 c-2.795,3.111-4.922,6.794-6.383,11.048c-1.429,4.032-2.111,8.271-2.049,12.715c0,4.381,0.825,8.699,2.476,12.953 c1.207,3.555,3.493,7.525,6.857,11.906l-0.285,0.285c-3.46-3.207-6.254-6.984-8.382-11.335c-2.157-4.381-3.396-8.92-3.713-13.619 c-0.318-4.763,0.271-9.445,1.762-14.049c1.462-4.635,3.716-8.762,6.764-12.382C117.252,22.588,120.903,19.604,125.189,17.287z">
+                    </path>
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M118.09,77.338c4.571,3.111,8.984,5.143,13.238,6.096 c4.667,1.302,9.35,1.635,14.049,1.001c4.667-0.539,9.032-1.921,13.097-4.143c4.19-2.222,7.683-5.111,10.478-8.667 c2.952-3.396,5.159-7.349,6.62-11.856c1.364-4.414,1.889-8.97,1.571-13.668c-0.222-4.667-1.412-9.191-3.571-13.572 c-1.745-4.032-4.555-7.985-8.428-11.858l0.237-0.334c4.064,2.984,7.382,6.715,9.953,11.192c2.635,4.477,4.237,9.223,4.809,14.24 c0.636,5.016,0.237,10.016-1.19,15.001c-1.461,5.016-3.811,9.46-7.049,13.333c-3.271,3.904-7.207,7.017-11.811,9.334 c-4.636,2.349-9.477,3.698-14.525,4.047c-5.048,0.285-10.016-0.43-14.905-2.144c-4.857-1.747-9.143-4.318-12.857-7.716 L118.09,77.338z">
+                    </path>
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M121.472,66.051c4.413,5.938,10.254,9.462,17.524,10.573 c7.334,1.111,13.969-0.539,19.906-4.951c5.969-4.382,9.493-10.223,10.573-17.524c1.08-7.303-0.555-13.922-4.904-19.859 c-4.413-5.938-10.254-9.461-17.524-10.573c-7.303-1.143-13.922,0.492-19.858,4.905c-5.969,4.38-9.493,10.222-10.573,17.523 C115.504,53.479,117.124,60.114,121.472,66.051z M125.999,27.145c6.38-4.731,13.493-6.507,21.334-5.333 c7.811,1.207,14.064,4.985,18.762,11.335c4.73,6.381,6.492,13.477,5.285,21.288c-1.207,7.809-4.984,14.063-11.335,18.762 c-6.381,4.73-13.477,6.492-21.287,5.285c-7.841-1.175-14.111-4.938-18.81-11.288c-4.729-6.381-6.491-13.478-5.284-21.286 C115.871,38.097,119.649,31.843,125.999,27.145z">
+                    </path>
+                    <circle fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-miterlimit="10"
+                        cx="153.224" cy="43.024" r="4.414"></circle>
+                    <circle fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-miterlimit="10"
+                        cx="132.858" cy="56.586" r="4.414"></circle>
+                    <circle fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-miterlimit="10"
+                        cx="150.974" cy="59.273" r="4.414"></circle>
+                    <circle fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-miterlimit="10"
+                        cx="221.256" cy="40.336" r="4.414"></circle>
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M211.337,17.287c4.286-2.318,8.778-3.731,13.478-4.238 c4.699-0.571,9.381-0.206,14.049,1.096c4.697,1.27,8.921,3.334,12.666,6.191l-0.237,0.334c-4.826-2.541-9.144-4.064-12.953-4.573 c-4.412-0.857-8.811-0.874-13.191-0.048c-4.382,0.761-8.429,2.206-12.144,4.333c-3.873,2.222-7.097,5-9.667,8.333 c-2.795,3.111-4.922,6.794-6.383,11.048c-1.429,4.032-2.111,8.271-2.049,12.715c0,4.381,0.825,8.699,2.476,12.953 c1.207,3.555,3.493,7.525,6.857,11.906l-0.285,0.285c-3.46-3.207-6.254-6.984-8.382-11.335c-2.157-4.381-3.396-8.92-3.713-13.619 c-0.318-4.763,0.271-9.445,1.762-14.049c1.462-4.635,3.716-8.762,6.764-12.382C203.4,22.588,207.051,19.604,211.337,17.287z">
+                    </path>
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M204.238,77.338c4.571,3.111,8.984,5.143,13.238,6.096 c4.667,1.302,9.35,1.635,14.049,1.001c4.667-0.539,9.032-1.921,13.097-4.143c4.19-2.222,7.683-5.111,10.478-8.667 c2.952-3.396,5.159-7.349,6.62-11.856c1.364-4.414,1.889-8.97,1.571-13.668c-0.222-4.667-1.412-9.191-3.571-13.572 c-1.745-4.032-4.555-7.985-8.428-11.858l0.237-0.334c4.064,2.984,7.382,6.715,9.953,11.192c2.635,4.477,4.237,9.223,4.809,14.24 c0.636,5.016,0.237,10.016-1.19,15.001c-1.461,5.016-3.811,9.46-7.049,13.333c-3.271,3.904-7.207,7.017-11.811,9.334 c-4.636,2.349-9.477,3.698-14.525,4.047c-5.048,0.285-10.016-0.43-14.905-2.144c-4.857-1.747-9.144-4.318-12.857-7.716 L204.238,77.338z">
+                    </path>
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M207.62,66.051c4.413,5.938,10.255,9.462,17.524,10.573 c7.334,1.111,13.969-0.539,19.906-4.951c5.969-4.382,9.493-10.223,10.573-17.524c1.08-7.303-0.555-13.922-4.904-19.859 c-4.413-5.938-10.254-9.461-17.524-10.573c-7.303-1.143-13.922,0.492-19.858,4.905c-5.969,4.38-9.493,10.222-10.573,17.523 C201.652,53.479,203.271,60.114,207.62,66.051z M212.146,27.145c6.381-4.731,13.493-6.507,21.335-5.333 c7.811,1.207,14.064,4.985,18.762,11.335c4.73,6.381,6.492,13.477,5.285,21.288c-1.207,7.809-4.984,14.063-11.335,18.762 c-6.381,4.73-13.477,6.492-21.287,5.285c-7.841-1.175-14.111-4.938-18.811-11.288c-4.729-6.381-6.491-13.478-5.284-21.286 C202.019,38.097,205.797,31.843,212.146,27.145z">
+                    </path>
+                    <circle fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-miterlimit="10"
+                        cx="239.373" cy="43.024" r="4.414"></circle>
+                    <circle fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-miterlimit="10"
+                        cx="219.006" cy="56.586" r="4.414"></circle>
+                    <circle fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-miterlimit="10"
+                        cx="237.123" cy="59.273" r="4.414"></circle>
+                    <circle fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-miterlimit="10"
+                        cx="307.405" cy="40.336" r="4.414"></circle>
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M297.485,17.287c4.286-2.318,8.778-3.731,13.478-4.238 c4.699-0.571,9.381-0.206,14.049,1.096c4.697,1.27,8.921,3.334,12.666,6.191l-0.237,0.334c-4.826-2.541-9.144-4.064-12.953-4.573 c-4.412-0.857-8.811-0.874-13.191-0.048c-4.382,0.761-8.429,2.206-12.144,4.333c-3.873,2.222-7.097,5-9.667,8.333 c-2.795,3.111-4.922,6.794-6.383,11.048c-1.429,4.032-2.111,8.271-2.049,12.715c0,4.381,0.825,8.699,2.476,12.953 c1.207,3.555,3.493,7.525,6.857,11.906l-0.285,0.285c-3.46-3.207-6.254-6.984-8.382-11.335c-2.157-4.381-3.396-8.92-3.713-13.619 c-0.318-4.763,0.271-9.445,1.762-14.049c1.462-4.635,3.716-8.762,6.764-12.382C289.549,22.588,293.199,19.604,297.485,17.287z">
+                    </path>
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M290.387,77.338c4.571,3.111,8.984,5.143,13.238,6.096 c4.667,1.302,9.35,1.635,14.049,1.001c4.667-0.539,9.032-1.921,13.097-4.143c4.19-2.222,7.683-5.111,10.478-8.667 c2.952-3.396,5.159-7.349,6.62-11.856c1.364-4.414,1.889-8.97,1.571-13.668c-0.222-4.667-1.412-9.191-3.571-13.572 c-1.745-4.032-4.555-7.985-8.428-11.858l0.237-0.334c4.064,2.984,7.382,6.715,9.953,11.192c2.635,4.477,4.237,9.223,4.809,14.24 c0.636,5.016,0.237,10.016-1.19,15.001c-1.461,5.016-3.811,9.46-7.049,13.333c-3.271,3.904-7.207,7.017-11.811,9.334 c-4.636,2.349-9.477,3.698-14.525,4.047c-5.048,0.285-10.016-0.43-14.905-2.144c-4.857-1.747-9.144-4.318-12.857-7.716 L290.387,77.338z">
+                    </path>
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M293.769,66.051c4.413,5.938,10.255,9.462,17.524,10.573 c7.334,1.111,13.969-0.539,19.906-4.951c5.969-4.382,9.493-10.223,10.573-17.524c1.08-7.303-0.555-13.922-4.904-19.859 c-4.413-5.938-10.254-9.461-17.524-10.573c-7.303-1.143-13.922,0.492-19.858,4.905c-5.969,4.38-9.493,10.222-10.573,17.523 C287.801,53.479,289.42,60.114,293.769,66.051z M298.295,27.145c6.381-4.731,13.493-6.507,21.335-5.333 c7.811,1.207,14.064,4.985,18.762,11.335c4.73,6.381,6.492,13.477,5.285,21.288c-1.207,7.809-4.984,14.063-11.335,18.762 c-6.381,4.73-13.477,6.492-21.287,5.285c-7.841-1.175-14.111-4.938-18.811-11.288c-4.729-6.381-6.491-13.478-5.284-21.286 C288.167,38.097,291.945,31.843,298.295,27.145z">
+                    </path>
+                    <circle fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-miterlimit="10"
+                        cx="325.521" cy="43.024" r="4.414"></circle>
+                    <circle fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-miterlimit="10"
+                        cx="305.155" cy="56.586" r="4.414"></circle>
+                    <circle fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-miterlimit="10"
+                        cx="323.271" cy="59.273" r="4.414"></circle>
+                    <circle fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-miterlimit="10"
+                        cx="393.553" cy="40.336" r="4.414"></circle>
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M383.634,17.287c4.286-2.318,8.778-3.731,13.478-4.238 c4.699-0.571,9.381-0.206,14.049,1.096c4.697,1.27,8.921,3.334,12.666,6.191l-0.237,0.334c-4.826-2.541-9.144-4.064-12.953-4.573 c-4.412-0.857-8.811-0.874-13.191-0.048c-4.382,0.761-8.429,2.206-12.144,4.333c-3.873,2.222-7.097,5-9.667,8.333 c-2.795,3.111-4.922,6.794-6.383,11.048c-1.429,4.032-2.111,8.271-2.049,12.715c0,4.381,0.825,8.699,2.476,12.953 c1.207,3.555,3.493,7.525,6.857,11.906l-0.285,0.285c-3.46-3.207-6.254-6.984-8.382-11.335c-2.157-4.381-3.396-8.92-3.713-13.619 c-0.318-4.763,0.271-9.445,1.762-14.049c1.462-4.635,3.716-8.762,6.764-12.382C375.697,22.588,379.348,19.604,383.634,17.287z">
+                    </path>
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M376.535,77.338c4.572,3.111,8.985,5.143,13.239,6.096 c4.667,1.302,9.35,1.635,14.049,1.001c4.667-0.539,9.032-1.921,13.097-4.143c4.19-2.222,7.683-5.111,10.478-8.667 c2.952-3.396,5.159-7.349,6.62-11.856c1.364-4.414,1.889-8.97,1.571-13.668c-0.222-4.667-1.412-9.191-3.571-13.572 c-1.745-4.032-4.555-7.985-8.428-11.858l0.237-0.334c4.064,2.984,7.382,6.715,9.953,11.192c2.635,4.477,4.237,9.223,4.809,14.24 c0.636,5.016,0.237,10.016-1.19,15.001c-1.461,5.016-3.811,9.46-7.049,13.333c-3.271,3.904-7.207,7.017-11.811,9.334 c-4.636,2.349-9.477,3.698-14.525,4.047c-5.048,0.285-10.016-0.43-14.905-2.144c-4.857-1.747-9.144-4.318-12.858-7.716 L376.535,77.338z">
+                    </path>
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M379.917,66.051c4.413,5.938,10.255,9.462,17.524,10.573 c7.334,1.111,13.969-0.539,19.906-4.951c5.969-4.382,9.493-10.223,10.573-17.524c1.08-7.303-0.555-13.922-4.904-19.859 c-4.413-5.938-10.254-9.461-17.524-10.573c-7.303-1.143-13.922,0.492-19.858,4.905c-5.969,4.38-9.494,10.222-10.574,17.523 C373.949,53.479,375.568,60.114,379.917,66.051z M384.443,27.145c6.381-4.731,13.493-6.507,21.335-5.333 c7.811,1.207,14.064,4.985,18.762,11.335c4.73,6.381,6.492,13.477,5.285,21.288c-1.207,7.809-4.984,14.063-11.335,18.762 c-6.381,4.73-13.477,6.492-21.287,5.285c-7.841-1.175-14.111-4.938-18.811-11.288c-4.73-6.381-6.492-13.478-5.285-21.286 C374.315,38.097,378.094,31.843,384.443,27.145z">
+                    </path>
+                    <circle fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-miterlimit="10"
+                        cx="411.669" cy="43.024" r="4.414"></circle>
+                    <circle fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-miterlimit="10"
+                        cx="391.303" cy="56.586" r="4.414"></circle>
+                    <circle fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-miterlimit="10"
+                        cx="409.419" cy="59.273" r="4.414"></circle>
+                    <circle fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-miterlimit="10"
+                        cx="479.702" cy="40.336" r="4.414"></circle>
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M469.782,17.287c4.286-2.318,8.778-3.731,13.478-4.238 c4.699-0.571,9.381-0.206,14.049,1.096c4.697,1.27,8.921,3.334,12.666,6.191l-0.237,0.334c-4.826-2.541-9.144-4.064-12.953-4.573 c-4.412-0.857-8.811-0.874-13.191-0.048c-4.382,0.761-8.429,2.206-12.144,4.333c-3.873,2.222-7.097,5-9.667,8.333 c-2.795,3.111-4.922,6.794-6.383,11.048c-1.429,4.032-2.111,8.271-2.049,12.715c0,4.381,0.825,8.699,2.476,12.953 c1.207,3.555,3.493,7.525,6.857,11.906l-0.285,0.285c-3.46-3.207-6.254-6.984-8.382-11.335c-2.157-4.381-3.396-8.92-3.713-13.619 c-0.318-4.763,0.271-9.445,1.762-14.049c1.462-4.635,3.716-8.762,6.764-12.382C461.846,22.588,465.496,19.604,469.782,17.287z">
+                    </path>
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M462.684,77.338c4.571,3.111,8.984,5.143,13.238,6.096 c4.667,1.302,9.35,1.635,14.049,1.001c4.667-0.539,9.032-1.921,13.097-4.143c4.19-2.222,7.683-5.111,10.478-8.667 c2.951-3.396,5.158-7.349,6.619-11.856c1.365-4.414,1.889-8.97,1.572-13.668c-0.223-4.667-1.412-9.191-3.572-13.572 c-1.744-4.032-4.555-7.985-8.427-11.858l0.237-0.334c4.064,2.984,7.381,6.715,9.953,11.192c2.635,4.477,4.236,9.223,4.809,14.24 c0.635,5.016,0.236,10.016-1.191,15.001c-1.461,5.016-3.811,9.46-7.049,13.333c-3.27,3.904-7.206,7.017-11.81,9.334 c-4.636,2.349-9.477,3.698-14.525,4.047c-5.048,0.285-10.016-0.43-14.905-2.144c-4.857-1.747-9.144-4.318-12.857-7.716 L462.684,77.338z">
+                    </path>
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M466.065,66.051c4.413,5.938,10.255,9.462,17.524,10.573 c7.334,1.111,13.969-0.539,19.906-4.951c5.969-4.382,9.492-10.223,10.572-17.524c1.08-7.303-0.555-13.922-4.903-19.859 c-4.413-5.938-10.254-9.461-17.524-10.573c-7.303-1.143-13.922,0.492-19.858,4.905c-5.969,4.38-9.493,10.222-10.573,17.523 C460.098,53.479,461.717,60.114,466.065,66.051z M470.592,27.145c6.381-4.731,13.493-6.507,21.335-5.333 c7.811,1.207,14.064,4.985,18.762,11.335c4.729,6.381,6.491,13.477,5.284,21.288c-1.207,7.809-4.983,14.063-11.334,18.762 c-6.381,4.73-13.477,6.492-21.287,5.285c-7.841-1.175-14.111-4.938-18.811-11.288c-4.729-6.381-6.491-13.478-5.284-21.286 C460.464,38.097,464.242,31.843,470.592,27.145z">
+                    </path>
+                    <circle fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-miterlimit="10"
+                        cx="497.818" cy="43.024" r="4.414"></circle>
+                    <circle fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-miterlimit="10"
+                        cx="477.452" cy="56.586" r="4.414"></circle>
+                    <circle fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000000" stroke-miterlimit="10"
+                        cx="495.568" cy="59.273" r="4.414"></circle>
+                </g>
+            </svg>
+        </div>
+        <div class="task10_pencils">
+            <div class="task10_pencil"><img data-color='blue' class="task10_pencilImg" src="Images_5/assets4/blue.png"
+                    alt="re6 pencil"></div>
+            <div class="task10_pencil"><img data-color='#fff' class="task10_pencilImg" src="Images_5/assets4/eraser.png"
+                    alt="eraser"></div>
+        </div>
+        <div class="task10_checkTask">
+            <button class="task10_reloadTask task1Btn">сброс &#8635; </button>
+            <div class="task10_chek_answer"></div>
+            <button class="task10_checkingTask task1Btn">проверить</button>
+        </div>
+    </div>
+
+    <a name="task11"></a>
+    <h3>Считаем ступени </h3>
+    <div class="task11_wrapper task_wrapper">
+        <div class="task11_answer">
+            <label>Ответ: <input min="0" type="number" id='task11_1'></label>
+
+        </div>
+        <div class="task11_checkTask">
+            <button class="task11_reloadTask task1Btn">сброс &#8635; </button>
+            <div class="task11_chek_answer"></div>
+            <button class="task11_checkingTask task1Btn">проверить</button>
+        </div>
+    </div>
+
+    <a name="task12"></a>
+    <h3>Знаки сравнения </h3>
+    <div class="task12_wrapper task_wrapper">
+        <div class="task12_line">
+            <div class="task12_answer">
+                <div class="task12_answer_item">
+                    9
+                    <select id="task12_select_1">
+                        <option value="0"> ... </option>
+                        <option value="1"> &gt; </option>
+                        <option value="2"> = </option>
+                        <option value="3"> &lt; </option>
+                    </select>8
+                </div>
+                <div class="task12_answer_item">
+                    1
+                    <select id="task12_select_2">
+                        <option value="0"> ... </option>
+                        <option value="1"> &gt; </option>
+                        <option value="2"> = </option>
+                        <option value="3"> &lt; </option>
+                    </select>9
+                </div>
+                <div class="task12_answer_item">
+                    8
+                    <select id="task12_select_3">
+                        <option value="0"> ... </option>
+                        <option value="1"> &gt; </option>
+                        <option value="2"> = </option>
+                        <option value="3"> &lt; </option>
+                    </select>9
+                </div>
+                <div class="task12_answer_item">
+                    3
+                    <select id="task12_select_4">
+                        <option value="0"> ... </option>
+                        <option value="1"> &gt; </option>
+                        <option value="2"> = </option>
+                        <option value="3"> &lt; </option>
+                    </select>9
+                </div>
+
+
+            </div>
+        </div>
+        <div class="task12_line">
+            <div class="task12_answer">
+                <div class="task12_answer_item">
+                    9
+                    <select id="task12_select_5">
+                        <option value="0"> ... </option>
+                        <option value="1"> &gt; </option>
+                        <option value="2"> = </option>
+                        <option value="3"> &lt; </option>
+                    </select>2
+                </div>
+                <div class="task12_answer_item">
+                    9
+                    <select id="task12_select_6">
+                        <option value="0"> ... </option>
+                        <option value="1"> &gt; </option>
+                        <option value="2"> = </option>
+                        <option value="3"> &lt; </option>
+                    </select>7
+                </div>
+                <div class="task12_answer_item">
+                    5
+                    <select id="task12_select_7">
+                        <option value="0"> ... </option>
+                        <option value="1"> &gt; </option>
+                        <option value="2"> = </option>
+                        <option value="3"> &lt; </option>
+                    </select>9
+                </div>
+                <div class="task12_answer_item">
+                    4
+                    <select id="task12_select_8">
+                        <option value="0"> ... </option>
+                        <option value="1"> &gt; </option>
+                        <option value="2"> = </option>
+                        <option value="3"> &lt; </option>
+                    </select>9
+                </div>
+
+            </div>
+        </div>
+        <div class="task12_line">
+            <div class="task12_answer">
+                <div class="task12_answer_item">
+                    9
+                    <select id="task12_select_9">
+                        <option value="0"> ... </option>
+                        <option value="1"> &gt; </option>
+                        <option value="2"> = </option>
+                        <option value="3"> &lt; </option>
+                    </select>5
+                </div>
+                <div class="task12_answer_item">
+                    9
+                    <select id="task12_select_10">
+                        <option value="0"> ... </option>
+                        <option value="1"> &gt; </option>
+                        <option value="2"> = </option>
+                        <option value="3"> &lt; </option>
+                    </select>6
+                </div>
+                <div class="task12_answer_item">
+                    9
+                    <select id="task12_select_11">
+                        <option value="0"> ... </option>
+                        <option value="1"> &gt; </option>
+                        <option value="2"> = </option>
+                        <option value="3"> &lt; </option>
+                    </select>9
+                </div>
+                <div class="task12_answer_item">
+                    7
+                    <select id="task12_select_12">
+                        <option value="0"> ... </option>
+                        <option value="1"> &gt; </option>
+                        <option value="2"> = </option>
+                        <option value="3"> &lt; </option>
+                    </select>9
+                </div>
+
+            </div>
+        </div>
+        <div class="task12_checkTask">
+            <button class="task12_reloadTask task1Btn">сброс &#8635; </button>
+            <div class="task12_chek_answer"></div>
+            <button class="task12_checkingTask task1Btn">проверить</button>
+        </div>
+    </div>
+
+    <a name="task13"></a>
+    <h3>Заполняем таблицу </h3>
+    <div class="task13_wrapper task_wrapper">
+        <div class="task13_answer">
+            <div class="task13_answerWraper">
+                <div class="task13_number">9</div>
+                <div class="task13_table">
+                    <div class="task13_column">
+                        <div class="task13_cell">1</div>
+                        <div class="task13_cell"><input min="0" type="number" id='task13_1'></label></div>
+                    </div>
+                    <div class="task13_column">
+                        <div class="task13_cell">2</div>
+                        <div class="task13_cell"><input min="0" type="number" id='task13_2'></label></div>
+                    </div>
+                    <div class="task13_column">
+                        <div class="task13_cell">3</div>
+                        <div class="task13_cell"><input min="0" type="number" id='task13_3'></label></div>
+                    </div>
+                    <div class="task13_column">
+                        <div class="task13_cell">4</div>
+                        <div class="task13_cell"><input min="0" type="number" id='task13_4'></label></div>
+                    </div>
+                    <div class="task13_column">
+                        <div class="task13_cell">5</div>
+                        <div class="task13_cell"><input min="0" type="number" id='task13_5'></label></div>
+                    </div>
+                    <div class="task13_column">
+                        <div class="task13_cell">6</div>
+                        <div class="task13_cell"><input min="0" type="number" id='task13_6'></label></div>
+                    </div>
+                    <div class="task13_column">
+                        <div class="task13_cell">7</div>
+                        <div class="task13_cell"><input min="0" type="number" id='task13_7'></label></div>
+                    </div>
+                    <div class="task13_column">
+                        <div class="task13_cell">8</div>
+                        <div class="task13_cell"><input min="0" type="number" id='task13_8'></label></div>
+                    </div>
+                </div>
+            </div>
+            <div class="task13_checkTask">
+                <button class="task13_reloadTask task1Btn">сброс &#8635; </button>
+                <div class="task13_chek_answer"></div>
+                <button class="task13_checkingTask task1Btn">проверить</button>
+            </div>
+        </div>
+    </div>
+
+
+    <a name="task14"></a>
+    <h3>Действия на числовом луче </h3>
+    <div class="task14_wrapper task_wrapper">
+        <div class="task14_answer">
+            <p>
+                <span>2 + 7 =<input min="0" type="number" id='task14_1'></span> ;
+                    <span>9 - 5 =<input min="0" type="number" id='task14_2'></span>;
+                    <span>9 -7 =<input min="0" type="number" id='task14_3'></span>;
+                    </p>
+                    <p> <span>4 + 5 -2 =<input min="0" type="number" id='task14_4'></span> ;
+                        <span>9 - 6 + 4 =<input min="0" type="number" id='task14_5'></span>;
+                    </p>
+                </div>
+                <div class="task14_checkTask">
+                    <button class="task14_reloadTask task1Btn">сброс &#8635; </button>
+                    <div class="task14_chek_answer"></div>
+                    <button class="task14_checkingTask task1Btn">проверить</button>
+                </div>
+            </div>
+
+            <a name="task15"></a>
+            <h3>Одинаковые ответы </h3>
+            <div class="task15_wrapper task_wrapper">
+                <div class="task15_imgWrapper">
+                    <div class="task15_container">
+                        5 + 4
+                        <div class="task15_imgWrapper_img" data-number="1">
+                        </div>
+                    </div>
+                    <div class="task15_container">
+                        4 + 3
+                        <div class="task15_imgWrapper_img" data-number="2">
+                        </div>
+                    </div>
+                    <div class="task15_container">
+                        2 + 6
+                        <div class="task15_imgWrapper_img" data-number="3">
+                        </div>
+                    </div>
+                    <div class="task15_container">
+                        2 + 4
+                        <div class="task15_imgWrapper_img" data-number="4">
+                        </div>
+                    </div>
+                </div>
+                <div class="task15_answers">
+
+                </div>
+                <div class="task15_checkTask">
+                    <button class="task15_reloadTask task1Btn">сброс &#8635; </button>
+                    <div class="task15_chek_answer"></div>
+                    <button class="task15_checkingTask task1Btn">проверить</button>
+                </div>
+            </div>
+
+
+            <a name="task16"></a>
+            <h3>Самое маленькое число </h3>
+            <div class="task16_wrapper task_wrapper">
+
+                <div class="task16_answers">
+
+                </div>
+                <div class="task16_checkTask">
+                    <button class="task16_reloadTask task1Btn">сброс &#8635; </button>
+                    <div class="task16_chek_answer"></div>
+                    <button class="task16_checkingTask task1Btn">проверить</button>
+                </div>
+            </div>
+
+            <a name="task17"></a>
+            <h3>Решаем примеры </h3>
+            <div class="task17_wrapper task_wrapper">
+                <div class="task17_answer">
+                    <p>
+                        <span>4 + 2 + 3 =<input min="0" type="number" id='task17_1'></span> ;
+                        <span>9 - 4 - 1 =<input min="0" type="number" id='task17_2'></span>;
+                        <span>4 + 3 - 2 =<input min="0" type="number" id='task17_3'></span>;
+                    </p>
+                    <p> <span>9 - 5 + 3 =<input min="0" type="number" id='task17_4'></span> ;
+                        <span>4 - 3 + 6 =<input min="0" type="number" id='task17_5'></span>;
+                        <span>8 - 4 + 2 =<input min="0" type="number" id='task17_6'></span>;
+                    </p>
+                </div>
+                <div class="task17_checkTask">
+                    <button class="task17_reloadTask task1Btn">сброс &#8635; </button>
+                    <div class="task17_chek_answer"></div>
+                    <button class="task17_checkingTask task1Btn">проверить</button>
+                </div>
+            </div>
+
+            <a name="task18"></a>
+            <h3>Выбираем пример </h3>
+            <div class="task18_wrapper task_wrapper">
+
+                <div class="task18_answers">
+
+                </div>
+                <div class="task18_checkTask">
+                    <button class="task18_reloadTask task1Btn">сброс &#8635; </button>
+                    <div class="task18_chek_answer"></div>
+                    <button class="task18_checkingTask task1Btn">проверить</button>
+                </div>
+            </div>
+
+            <a name="task19"></a>
+            <h3>Канистра</h3>
+            <div class="task19_wrapper task_wrapper">
+                <div class="task19_answer">
+                    <label>Ответ: <input min="0" type="number" id='task19_1'> литров.                    </label>
+
+                </div>
+                <div class="task19_checkTask">
+                    <button class="task19_reloadTask task1Btn">сброс &#8635; </button>
+                    <div class="task19_chek_answer"></div>
+                    <button class="task19_checkingTask task1Btn">проверить</button>
+                </div>
+            </div>
+
+            <a name="task20"></a>
+            <h3>Тренируемся. Сколько четырёхугольников? </h3>
+            <div class="task20_wrapper task_wrapper">
+                <div class="task20_answer">
+                    <label>Ответ: <input min="0" type="number" id='task20_1'>                    </label>
+
+                </div>
+                <div class="task20_checkTask">
+                    <button class="task20_reloadTask task1Btn">сброс &#8635; </button>
+                    <div class="task20_chek_answer"></div>
+                    <button class="task20_checkingTask task1Btn">проверить</button>
+                </div>
+            </div>
+
+            <a name="task21"></a>
+            <h3>Весёлая переменка. Задача в стихах </h3>
+            <div class="task21_wrapper task_wrapper">
+                <div class="task21_answer">
+                    <label>Ответ: <input min="0" type="number" id='task21_1'>                    </label>
+
+                </div>
+                <div class="task21_checkTask">
+                    <button class="task21_reloadTask task1Btn">сброс &#8635; </button>
+                    <div class="task21_chek_answer"></div>
+                    <button class="task21_checkingTask task1Btn">проверить</button>
+                </div>
+            </div>
+
+            <a href="lesson5.html">следующий урок</a>
+
+            <script src="js-data/assets4/task1_script.js"></script>
+            <script src="js-data/assets4/task2_script.js"></script>
+            <script src="js-data/assets4/task3_script.js"></script>
+            <script src="js-data/assets4/task4_script.js"></script>
+            <script src="js-data/assets4/task5_script.js"></script>
+            <script src="js-data/assets4/task6_script.js"></script>
+            <script src="js-data/assets4/task7_script.js"></script>
+            <script src="js-data/assets4/task8_script.js"></script>
+            <script src="js-data/assets4/task9_script.js"></script>
+            <script src="js-data/assets4/task10_script.js"></script>
+            <script src="js-data/assets4/task11_script.js"></script>
+            <script src="js-data/assets4/task12_script.js"></script>
+            <script src="js-data/assets4/task13_script.js"></script>
+            <script src="js-data/assets4/task14_script.js"></script>
+            <script src="js-data/assets4/task15_script.js"></script>
+            <script src="js-data/assets4/task16_script.js"></script>
+            <script src="js-data/assets4/task17_script.js"></script>
+            <script src="js-data/assets4/task18_script.js"></script>
+            <script src="js-data/assets4/task19_script.js"></script>
+            <script src="js-data/assets4/task20_script.js"></script>
+            <script src="js-data/assets4/task21_script.js"></script>
+</body>
+
+</html>
