@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/assets6/task1_style.css">
+    <link rel="stylesheet" href="styles/assets6/task2_style.css">
+    <link rel="stylesheet" href="styles/assets6/task3_style.css">
+    <link rel="stylesheet" href="styles/assets6/task4_style.css">
+    <link rel="stylesheet" href="styles/assets6/task5_style.css">
+    <link rel="stylesheet" href="styles/assets6/task6_style.css">
+    <link rel="stylesheet" href="styles/assets6/task7_style.css">
+    <link rel="stylesheet" href="styles/assets6/task8_style.css">
+    <link rel="stylesheet" href="styles/assets6/task9_style.css">
+    <link rel="stylesheet" href="styles/assets6/task10_style.css">
+    <link rel="stylesheet" href="styles/assets6/task11_style.css">
+    <link rel="stylesheet" href="styles/assets6/task12_style.css">
+</head>
+
+<body>
+
+    <a name="task1"></a>
+    <h3>Какое число? </h3>
+    <div class="task1_wrapper task_wrapper">
+        <div class="task1_answer">
+            <p>Левее числа 9<input min="0" type="number" id='task1_1'></p>
+            <p>Правее числа 6<input min="0" type="number" id='task1_2'></p>
+            <p>Перед числом 8<input min="0" type="number" id='task1_3'></p>
+            <p>После числа 2<input min="0" type="number" id='task1_4'></p>
+        </div>
+        <div class="task1_checkTask">
+            <button class="task1_reloadTask task1Btn">сброс &#8635; </button>
+            <div class="task1_chek_answer"></div>
+            <button class="task1_checkingTask task1Btn">проверить</button>
+        </div>
+    </div>
+
+    <a name="task2"></a>
+    <h3>Бусинки</h3>
+    <div class="task2_wrapper task_wrapper">
+        <div class="task2_circleWrapper">
+
+            <svg xmlns="http://www.w3.org/2000/svg" id="task2_svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none" x="0px" y="0px" viewBox="0 0 550 400">
+                <g class='task2_baloon task2_white' id="Layer0_0_FILL" fill="#FFFFFF" startfillcolor="#FFFFFF">
+                    <path
+                        d=" M 35.05 89.5 Q 30.1025390625 90.8015625 25.7 94.2 17.2 100.85 15.85 111.5 14.5 122.15 21.1 130.65 27.75 139.2 38.4 140.55 46.5828125 141.582421875 53.45 137.9 55.562109375 136.814453125 57.55 135.25 66.1 128.65 67.45 118 68.8 107.35 62.15 98.8 55.6 90.3 44.9 88.95 39.7337890625 88.2951171875 35.05 89.5 Z">
+                    </path>
+                </g>
+                <g class='task2_baloon task2_white' id="Layer0_1_FILL" fill="#FFFFFF" startfillcolor="#FFFFFF">
+                    <path
+                        d=" M 60 152 Q 58.8080078125 152.7560546875 57.65 153.65 49.15 160.3 47.8 170.95 46.45 181.6 53.05 190.1 59.7 198.65 70.35 200 79.2001953125 201.1166015625 86.5 196.75 88.0390625 195.849609375 89.5 194.7 98.05 188.1 99.4 177.45 100.75 166.8 94.1 158.25 87.55 149.75 76.85 148.4 67.6423828125 147.2328125 60 152 Z">
+                    </path>
+                </g>
+                <g class='task2_baloon task2_red' id="Layer0_2_FILL" fill="#FFFFFF" neededcolor="7"
+                    startfillcolor="#FFFFFF">
+                    <path
+                        d=" M 131.45 245.2 Q 136.4931640625 239.542578125 137.5 231.6 138.85 220.95 132.2 212.4 125.65 203.9 114.95 202.55 104.3 201.2 95.75 207.8 95.5021484375 207.9939453125 95.25 208.2 87.210546875 214.760546875 85.9 225.1 84.55 235.75 91.15 244.25 97.8 252.8 108.45 254.15 119.15 255.5 127.6 248.85 129.7734375 247.172265625 131.45 245.2 Z">
+                    </path>
+                </g>
+                <g class='task2_baloon task2_green' id="Layer0_3_FILL" fill="#FFFFFF" neededcolor="11"
+                    startfillcolor="#FFFFFF">
+                    <path
+                        d=" M 138.95 286.5 Q 145.6 295.05 156.25 296.4 166.95 297.75 175.4 291.1 181.520703125 286.3751953125 183.95 279.55 184.91640625 276.8759765625 185.3 273.85 186.65 263.2 180 254.65 173.45 246.15 162.75 244.8 152.1 243.45 143.55 250.05 141.9662109375 251.2890625 140.6 252.65 134.7984375 258.684375 133.7 267.35 132.35 278 138.95 286.5 Z">
+                    </path>
+                </g>
+                <g class='task2_baloon task2_white' id="Layer0_4_FILL" fill="#FFFFFF" startfillcolor="#FFFFFF">
+                    <path
+                        d=" M 199.35 271.2 Q 193.2693359375 275.9572265625 190.85 282.75 189.8841796875 285.46875 189.5 288.5 188.15 299.15 194.75 307.65 201.4 316.2 212.05 317.55 222.75 318.9 231.2 312.25 238.2794921875 306.78515625 240.4 298.55 240.8677734375 296.831640625 241.1 295 242.45 284.35 235.8 275.8 229.25 267.3 218.55 265.95 207.9 264.6 199.35 271.2 Z">
+                    </path>
+                </g>
+                <g class='task2_baloon task2_red' id="Layer0_5_FILL" fill="#FFFFFF" neededcolor="7"
+                    startfillcolor="#FFFFFF">
+                    <path
+                        d=" M 282.05 273.95 Q 271.4 272.6 262.85 279.2 254.35 285.85 253 296.5 252.7263671875 298.65859375 252.75 300.7 252.9876953125 308.8728515625 258.25 315.65 264.9 324.2 275.55 325.55 286.25 326.9 294.7 320.25 303.25 313.65 304.6 303 304.6865234375 302.316796875 304.75 301.65 305.5234375 291.8015625 299.3 283.8 292.75 275.3 282.05 273.95 Z">
+                    </path>
+                </g>
+                <g class='task2_baloon task2_white' id="Layer0_6_FILL" fill="#FFFFFF" startfillcolor="#FFFFFF">
+                    <path
+                        d=" M 358.8 271.2 Q 350.25 264.6 339.5 265.95 328.8 267.3 322.15 275.8 315.5 284.35 316.85 295 317.1609375 297.452734375 317.85 299.7 320.169140625 307.169921875 326.75 312.25 335.35 318.9 346.05 317.55 356.8 316.2 363.4 307.65 370.05 299.15 368.7 288.5 368.388671875 286.0435546875 367.7 283.8 365.3779296875 276.3162109375 358.8 271.2 Z">
+                    </path>
+                </g>
+                <g class='task2_baloon task2_green' id="Layer0_7_FILL" fill="#FFFFFF" neededcolor="11"
+                    startfillcolor="#FFFFFF">
+                    <path
+                        d=" M 419.5 286.5 Q 426.15 278 424.8 267.35 423.7333984375 258.9353515625 418.15 253 416.69453125 251.445703125 414.9 250.05 406.35 243.45 395.6 244.8 384.9 246.15 378.25 254.65 371.6 263.2 372.95 273.85 373.4015625 277.41171875 374.65 280.5 377.159375 286.7072265625 382.85 291.1 391.45 297.75 402.15 296.4 412.9 295.05 419.5 286.5 Z">
+                    </path>
+                </g>
+                <g class='task2_baloon task2_red' id="Layer0_8_FILL" fill="#FFFFFF" neededcolor="7"
+                    startfillcolor="#FFFFFF">
+                    <path
+                        d=" M 463 207.8 Q 462.73125 207.592578125 462.45 207.4 454.112109375 201.2423828125 443.7 202.55 433 203.9 426.35 212.4 419.7 220.95 421.05 231.6 422.0734375 239.6734375 427.2 245.4 428.8814453125 247.2533203125 430.95 248.85 439.55 255.5 450.25 254.15 461 252.8 467.6 244.25 474.25 235.75 472.9 225.1 471.55 214.45 463 207.8 Z">
+                    </path>
+                </g>
+                <g class='task2_baloon task2_white' id="Layer0_9_FILL" fill="#FFFFFF" startfillcolor="#FFFFFF">
+                    <path
+                        d=" M 501.35 153.65 Q 500.202734375 152.764453125 499 152 491.357421875 147.2310546875 482.05 148.4 471.35 149.75 464.7 158.25 458.05 166.8 459.4 177.45 460.75 188.1 469.3 194.7 470.191796875 195.3896484375 471.1 196 479.0095703125 201.2099609375 488.6 200 499.35 198.65 505.95 190.1 512.6 181.6 511.25 170.95 509.9 160.3 501.35 153.65 Z">
+                    </path>
+                </g>
+                <g class='task2_baloon task2_white' id="Layer0_10_FILL" fill="#FFFFFF" startfillcolor="#FFFFFF">
+                    <path
+                        d=" M 524.6 89.65 Q 519.6580078125 88.258203125 514.15 88.95 503.45 90.3 496.8 98.8 490.15 107.35 491.5 118 492.85 128.65 501.4 135.25 503.719140625 137.043359375 506.2 138.25 512.885546875 141.5359375 520.7 140.55 531.45 139.2 538.05 130.65 544.7 122.15 543.35 111.5 542 100.85 533.45 94.2 529.280859375 90.981640625 524.6 89.65 Z">
+                    </path>
+                </g>
+                <g id="1" stoppainting="true">
+                    <path id="Layer0_11_1_STROKES" stroke="#000000" stroke-width="4" stroke-linejoin="round"
+                        stroke-linecap="round" fill="none"
+                        d=" M 491.5 118 Q 492.85 128.65 501.4 135.25 503.719140625 137.043359375 506.2 138.25 512.885546875 141.5359375 520.7 140.55 531.45 139.2 538.05 130.65 544.7 122.15 543.35 111.5 542 100.85 533.45 94.2 529.280859375 90.981640625 524.6 89.65 519.6580078125 88.258203125 514.15 88.95 503.45 90.3 496.8 98.8 490.15 107.35 491.5 118 Z M 524.6 89.65 Q 528.2501953125 74.1427734375 529.3 58 M 459.4 177.45 Q 460.75 188.1 469.3 194.7 470.191796875 195.3896484375 471.1 196 479.0095703125 201.2099609375 488.6 200 499.35 198.65 505.95 190.1 512.6 181.6 511.25 170.95 509.9 160.3 501.35 153.65 500.202734375 152.764453125 499.025 152.025 491.357421875 147.2310546875 482.05 148.4 471.35 149.75 464.7 158.25 458.05 166.8 459.4 177.45 Z M 499.025 152.025 Q 502.7353515625 145.2169921875 506.2 138.25 M 421.05 231.6 Q 422.0734375 239.6734375 427.225 245.425 428.8814453125 247.2533203125 430.95 248.85 439.55 255.5 450.25 254.15 461 252.8 467.6 244.25 474.25 235.75 472.9 225.1 471.55 214.45 463 207.8 462.73125 207.592578125 462.45 207.4 454.112109375 201.2423828125 443.7 202.55 433 203.9 426.35 212.4 419.7 220.95 421.05 231.6 Z M 372.95 273.85 Q 373.4015625 277.41171875 374.65 280.525 377.159375 286.7072265625 382.85 291.1 391.45 297.75 402.15 296.4 412.9 295.05 419.5 286.5 426.15 278 424.8 267.35 423.7333984375 258.9353515625 418.175 253.025 416.69453125 251.445703125 414.9 250.05 406.35 243.45 395.6 244.8 384.9 246.15 378.25 254.65 371.6 263.2 372.95 273.85 Z M 418.175 253.025 Q 422.78515625 249.3416015625 427.225 245.425 M 316.85 295 Q 317.1609375 297.452734375 317.85 299.7 320.169140625 307.169921875 326.75 312.25 335.35 318.9 346.05 317.55 356.8 316.2 363.4 307.65 370.05 299.15 368.7 288.5 368.388671875 286.0435546875 367.7 283.8 365.3779296875 276.3162109375 358.8 271.2 350.25 264.6 339.5 265.95 328.8 267.3 322.15 275.8 315.5 284.35 316.85 295 Z M 367.7 283.8 Q 371.20859375 282.2115234375 374.65 280.525 M 462.45 207.4 Q 466.888671875 201.7646484375 471.1 196 M 317.85 299.7 Q 311.321484375 300.893359375 304.75 301.65 304.6865234375 302.316796875 304.6 303 303.25 313.65 294.7 320.25 286.25 326.9 275.55 325.55 264.9 324.2 258.25 315.65 252.9876953125 308.8728515625 252.775 300.725 246.75546875 299.8431640625 240.7 298.6 240.561328125 298.5716796875 240.425 298.55 238.2794921875 306.78515625 231.2 312.25 222.75 318.9 212.05 317.55 201.4 316.2 194.75 307.65 188.15 299.15 189.5 288.5 189.8841796875 285.46875 190.85 282.75 187.373046875 281.223828125 183.95 279.575 181.520703125 286.3751953125 175.4 291.1 166.95 297.75 156.25 296.4 145.6 295.05 138.95 286.5 132.35 278 133.7 267.35 134.7984375 258.684375 140.625 252.675 138.4017578125 250.9376953125 136.2 249.15 133.815234375 247.2126953125 131.475 245.225 129.7734375 247.172265625 127.6 248.85 119.15 255.5 108.45 254.15 97.8 252.8 91.15 244.25 84.55 235.75 85.9 225.1 87.210546875 214.760546875 95.25 208.2 90.734375 202.5919921875 86.5 196.75 79.2001953125 201.1166015625 70.35 200 59.7 198.65 53.05 190.1 46.45 181.6 47.8 170.95 49.15 160.3 57.65 153.65 58.8080078125 152.7560546875 60 152 56.6052734375 145.0134765625 53.45 137.925 46.5828125 141.582421875 38.4 140.55 27.75 139.2 21.1 130.65 14.5 122.15 15.85 111.5 17.2 100.85 25.7 94.2 30.1025390625 90.8015625 35.05 89.5 30.1361328125 73.951171875 26.3 58 M 35.05 89.5 Q 39.7337890625 88.2951171875 44.9 88.95 55.6 90.3 62.15 98.8 68.8 107.35 67.45 118 66.1 128.65 57.55 135.25 55.562109375 136.814453125 53.45 137.925 M 60 152 Q 67.6423828125 147.2328125 76.85 148.4 87.55 149.75 94.1 158.25 100.75 166.8 99.4 177.45 98.05 188.1 89.5 194.7 88.0390625 195.849609375 86.5 196.75 M 95.25 208.2 Q 95.5021484375 207.9939453125 95.75 207.8 104.3 201.2 114.95 202.55 125.65 203.9 132.2 212.4 138.85 220.95 137.5 231.6 136.4931640625 239.542578125 131.475 245.225 M 140.625 252.675 Q 141.9662109375 251.2890625 143.55 250.05 152.1 243.45 162.75 244.8 173.45 246.15 180 254.65 186.65 263.2 185.3 273.85 184.91640625 276.8759765625 183.95 279.575 M 252.775 300.725 Q 252.7263671875 298.65859375 253 296.5 254.35 285.85 262.85 279.2 271.4 272.6 282.05 273.95 292.75 275.3 299.3 283.8 305.5234375 291.8015625 304.75 301.65 M 190.85 282.75 Q 193.2693359375 275.9572265625 199.35 271.2 207.9 264.6 218.55 265.95 229.25 267.3 235.8 275.8 242.45 284.35 241.1 295 240.8677734375 296.831640625 240.425 298.55">
+                    </path>
+                </g>
+            </svg>
+
+        </div>
+        <div class="task2_pencils">
+            <div class="task2_pencil"><img data-color='red' class="task2_pencilImg" src="Images_5/assets6/red.png" alt="re6 pencil"></div>
+            <div class="task2_pencil"><img data-color='green' class="task2_pencilImg" src="Images_5/assets6/green.png" alt="re6 pencil"></div>
+            <div class="task2_pencil"><img data-color='#fff' class="task2_pencilImg" src="Images_5/assets6/eraser.png" alt="eraser"></div>
+        </div>
+        <div class="task2_checkTask">
+            <button class="task2_reloadTask task1Btn">сброс &#8635; </button>
+            <div class="task2_chek_answer"></div>
+            <button class="task2_checkingTask task1Btn">проверить</button>
+        </div>
+    </div>
+
+    <a name="task3"></a>
+    <h3>Сколько квадратов? </h3>
+    <div class="task3_wrapper task_wrapper">
+        <div class="task3_answer">
+            <label>Ответ: <input min="0" type="number" id='task3_1'></label>
+
+        </div>
+        <div class="task3_checkTask">
+            <button class="task3_reloadTask task1Btn">сброс &#8635; </button>
+            <div class="task3_chek_answer"></div>
+            <button class="task3_checkingTask task1Btn">проверить</button>
+        </div>
+    </div>
+
+    <a name="task4"></a>
+    <h3>Сравнение </h3>
+    <div class="task4_wrapper task_wrapper">
+        <div class="task4_line">
+            <div class="task4_answer">
+                <div class="task4_answer_item">
+                    1 + 6
+                    <select id="task4_select_1">
+                        <option value="0"> ... </option>
+                        <option value="1"> &gt; </option>
+                        <option value="2"> = </option>
+                        <option value="3"> &lt; </option>
+                    </select>7
+                </div>
+                <div class="task4_answer_item">
+                    5 + 1
+                    <select id="task4_select_2">
+                        <option value="0"> ... </option>
+                        <option value="1"> &gt; </option>
+                        <option value="2"> = </option>
+                        <option value="3"> &lt; </option>
+                    </select>4
+                </div>
+            </div>
+        </div>
+        <div class="task4_line">
+            <div class="task4_answer">
+                <div class="task4_answer_item">
+                    8 - 1
+                    <select id="task4_select_3">
+                        <option value="0"> ... </option>
+                        <option value="1"> &gt; </option>
+                        <option value="2"> = </option>
+                        <option value="3"> &lt; </option>
+                    </select>7
+                </div>
+                <div class="task4_answer_item">
+                    9 - 1
+                    <select id="task4_select_4">
+                        <option value="0"> ... </option>
+                        <option value="1"> &gt; </option>
+                        <option value="2"> = </option>
+                        <option value="3"> &lt; </option>
+                    </select>7
+                </div>
+            </div>
+        </div>
+        <div class="task4_checkTask">
+            <button class="task4_reloadTask task1Btn">сброс &#8635; </button>
+            <div class="task4_chek_answer"></div>
+            <button class="task4_checkingTask task1Btn">проверить</button>
+        </div>
+    </div>
+
+    <a name="task5"></a>
+    <h3>Лишняя фигура </h3>
+    <div class="task5_wrapper task_wrapper">
+        <div class="task5_circleWrapper">
+
+
+            <svg xmlns="http://www.w3.org/2000/svg" id="task5_svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none" x="0px" y="0px" width="550px" height="400px" viewBox="0 0 550 400">
+                <g class='task5_baloon task5_white' id="1" fill="#FFFFFF" startfillcolor="#FFFFFF" stroke="green"
+                    colored="false">
+                    <path id="path3561"
+                        d="m 92.511968,60.78849 q -7,12.9 -7,31.15 0,18.25 7,31.1 7.05,12.9 17.000002,12.9 9.95,0 16.95,-12.9 7.04999,-12.85 7.04999,-31.1 0,-18.25 -7.04999,-31.15 -7,-12.85 -16.95,-12.85 -9.950002,0 -17.000002,12.85 z">
+                    </path>
+                </g>
+                <g class='task5_baloon task5_white' id="2" fill="#FFFFFF" startfillcolor="#FFFFFF" stroke="green"
+                    colored="false">
+                    <path id="path3564"
+                        d="m 236.36196,91.93849 q 0,-9.95 -12.85,-17 -12.9,-7 -31.15,-7 -18.25,0 -31.1,7 -12.9,7.05 -12.9,17 0,9.95 12.9,16.95 12.85,7.05 31.1,7.05 18.25,0 31.15,-7.05 12.85,-7 12.85,-16.95 z">
+                    </path>
+                </g>
+                <g class='task5_baloon task5_white' id="3" fill="#FFFFFF" startfillcolor="#FFFFFF" stroke="green"
+                    colored="false">
+                    <path id="path3567"
+                        d="m 257.66196,76.38849 q -6.44999,6.45 -6.44999,15.55 0,9.1 6.44999,15.55 6.45,6.45 15.55001,6.45 9.1,0 15.55,-6.45 6.45,-6.45 6.45,-15.55 0,-9.1 -6.45,-15.55 -6.45,-6.45 -15.55,-6.45 -9.10001,0 -15.55001,6.45 z">
+                    </path>
+                </g>
+                <g class='task5_baloon task5_red' id="4" fill="#FFFFFF" neededcolor="1" startfillcolor="#FFFFFF"
+                    stroke="green">
+                    <path id="path3570" d="m 372.06196,122.93849 0,-62 -62,0 0,62 62,0 z"></path>
+                </g>
+                <g class='task5_baloon task5_white' id="5" fill="#FFFFFF" startfillcolor="#FFFFFF">
+                    <path id="path3573"
+                        d="m 398.76197,63.28849 q -11.85001,11.85 -11.85001,28.65 0,16.8 11.85001,28.65 11.85,11.85 28.64999,11.85 16.80001,0 28.65,-11.85 11.85,-11.85 11.85,-28.65 0,-16.8 -11.85,-28.65 -11.85,-11.85 -28.65,-11.85 -16.8,0 -28.64999,11.85 z">
+                    </path>
+                </g>
+                <g id="6" stoppainting="true">
+                    <path style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:round;stroke-linejoin:round"
+                        d="m 467.91196,91.93849 q 0,16.8 -11.85,28.65 -11.85,11.85 -28.65,11.85 -16.8,0 -28.64999,-11.85 -11.85001,-11.85 -11.85001,-28.65 0,-16.8 11.85001,-28.65 11.85,-11.85 28.64999,-11.85 16.80001,0 28.65,11.85 11.85,11.85 11.85,28.65 z m -157.85,-31 62,0 0,62 -62,0 0,-62 z m -250.549992,-25 431.949992,0 0,112 -431.949992,0 0,-112 z m 132.849992,80 q -18.25,0 -31.1,-7.05 -12.9,-7 -12.9,-16.95 0,-9.95 12.9,-17 12.85,-7 31.1,-7 18.25,0 31.15,7 12.85,7.05 12.85,17 0,9.95 -12.85,16.95 -12.9,7.05 -31.15,7.05 z m 102.85,-24 q 0,9.1 -6.45,15.55 -6.45,6.45 -15.55,6.45 -9.1,0 -15.55,-6.45 -6.45,-6.45 -6.45,-15.55 0,-9.1 6.45,-15.55 6.45,-6.45 15.55,-6.45 9.1,0 15.55,6.45 6.45,6.45 6.45,15.55 z m -161.7,0 q 0,18.25 -7.05,31.1 -7,12.9 -16.95,12.9 -9.949992,0 -16.999992,-12.9 -7,-12.85 -7,-31.1 0,-18.25 7,-31.15 7.05,-12.85 16.999992,-12.85 9.95,0 16.95,12.85 7.05,12.9 7.05,31.15 z"
+                        id="Layer0_5_1_STROKES"></path>
+                </g>
+                <g class='task5_baloon task5_white' id="7" fill="#FFFFFF" startfillcolor="#FFFFFF" stroke="green">
+                    <path id="path4392" d="m 162.90001,215.05 -44,0 -22.200005,66.1 87.550005,0 -21.35,-66.1 z"></path>
+                </g>
+                <g class='task5_baloon task5_red' id="8" fill="#FFFFFF" neededcolor="1" startfillcolor="#FFFFFF"
+                    stroke="green" color="1" colored="true">
+                    <path id="path4395" d="m 203.34999,281.15 87.45001,-0.2 -87.45,-71.9 0,72.1 z"></path>
+                </g>
+                <g class='task5_baloon task5_white' id="9" fill="#FFFFFF" startfillcolor="#FFFFFF">
+                    <path id="path4398" d="m 361.35,281.15 0,-75.45 -47.35,0 0,75.45 47.35,0 z"></path>
+                </g>
+                <g class='task5_baloon task5_white' id="10" fill="#FFFFFF" startfillcolor="#FFFFFF">
+                    <path id="path4401" d="m 455.25,242.45 -38.7,-38.7 -38.7,38.7 38.7,38.7 38.7,-38.7 z"></path>
+                </g>
+                <g id="11" fill="#FFFFFF" startfillcolor="#FFFFFF">
+                    <path id="path4404" d="m 203.34999,209.05 -1.05,-0.9 -0.3,73 1.35,0 0,-72.1 z"></path>
+                </g>
+                <g id="12" stoppainting="true">
+                    <path style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:round;stroke-linejoin:round"
+                        d="m 377.85,242.45 38.7,-38.7 38.7,38.7 -38.7,38.7 -38.7,-38.7 z M 314,205.7 l 47.35,0 0,75.45 -47.35,0 0,-75.45 z m -254.5,-19.2 431.94999,0 0,112 -431.94999,0 0,-112 z m 143.84999,22.55 87.45001,71.9 -87.45,0.2 0,-72.1 z m -84.44998,6 44,0 21.35,66.1 -87.550005,0 21.900005,-65.25"
+                        id="Layer1_4_1_STROKES"></path>
+                </g>
+            </svg>
+
+        </div>
+        <div class="task5_pencils">
+            <div class="task5_pencil"><img data-color='red' class="task5_pencilImg" src="Images_5/assets6/red.png" alt="re6 pencil"></div>
+            <div class="task5_pencil"><img data-color='#fff' class="task5_pencilImg" src="Images_5/assets6/eraser.png" alt="eraser"></div>
+        </div>
+        <div class="task5_checkTask">
+            <button class="task5_reloadTask task1Btn">сброс &#8635; </button>
+            <div class="task5_chek_answer"></div>
+            <button class="task5_checkingTask task1Btn">проверить</button>
+        </div>
+    </div>
+
+    <a name="task6"></a>
+    <h3>Как измеряли наши предки </h3>
+    <div class="task6_wrapper task_wrapper">
+        <div class="task6_begin"><button class="task6_start1">начать со звуком</button><button class="task6_start2">начать без звука</button></div>
+        <div class="task6_sliderWrapper">
+            <div class="task6_counting">Изображение <span class="task6_count1"></span> из <span class="task6_count2"></span></div>
+
+            <divc class="task6_slider">
+                <button class="task6_prev task6_btn"><img src="Images_5/assets6/prev.png" alt=""></button>
+                <div class="task6_slide">
+                    <div class="task6_img"></div>
+                </div>
+
+                <button class="task6_next task6_btn"><img src="Images_5/assets6/next.png" alt=""></button>
+            </divc>
+        </div>
+
+        <div class="task6_slide_caption"></div>
+
+
+        <audio class="task6_audio" src="sound/6/task6_1.mp3">
+            Your browser does not support the
+            <code>audio</code> element.s
+        </audio>
+        <audio class="task6_audio" src="sound/6/task6_2.mp3">
+            Your browser does not support the
+            <code>audio</code> element.
+        </audio>
+        <audio class="task6_audio" src="sound/6/task6_3.mp3">
+            Your browser does not support the
+            <code>audio</code> element.
+        </audio>
+
+    </div>
+
+    <a name="task7"></a>
+    <h3>2 отрезка </h3>
+    <div class="task7_wrapper task_wrapper">
+
+        <div class="task7_answers">
+
+        </div>
+        <div class="task7_checkTask">
+            <button class="task7_reloadTask task1Btn">сброс &#8635; </button>
+            <div class="task7_chek_answer"></div>
+            <button class="task7_checkingTask task1Btn">проверить</button>
+        </div>
+    </div>
+
+    <a name="task8"></a>
+    <h3>Длина отрезка </h3>
+    <div class="task8_wrapper task_wrapper">
+        <div class="task8_answer">
+            <label>Ответ: <input min="0" type="number" id='task8_1'></label>
+
+        </div>
+        <div class="task8_checkTask">
+            <button class="task8_reloadTask task1Btn">сброс &#8635; </button>
+            <div class="task8_chek_answer"></div>
+            <button class="task8_checkingTask task1Btn">проверить</button>
+        </div>
+    </div>
+
+    <a name="task9"></a>
+    <h3>Обозначаем отрезком длину карандаша </h3>
+    <div class="task9_wrapper task_wrapper">
+        <div class="task9_imgWrapper">
+            <div class="task9_container">
+                <img src="Images_5/assets6/task9_1.png" class="task9_img1">
+                <div class="task9_imgWrapper_img" data-number="2">
+                </div>
+            </div>
+            <div class="task9_container">
+                <img src="Images_5/assets6/task9_2.png" class="task9_img2">
+                <div class="task9_imgWrapper_img" data-number="1">
+                </div>
+            </div>
+            <div class="task9_container">
+                <img src="Images_5/assets6/task9_3.png" class="task9_img3">
+                <div class="task9_imgWrapper_img" data-number="3">
+                </div>
+            </div>
+        </div>
+        <div class="task9_answers">
+
+        </div>
+        <div class="task9_checkTask">
+            <button class="task9_reloadTask task1Btn">сброс &#8635; </button>
+            <div class="task9_chek_answer"></div>
+            <button class="task9_checkingTask task1Btn">проверить</button>
+        </div>
+    </div>
+
+    <a name="task10"></a>
+    <h3>Бусинки</h3>
+    <div class="task10_wrapper task_wrapper">
+        <div class="task10_circleWrapper">
+
+            <svg version="1.1" id="task10_svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 841.89 300" enable-background="new 0 0 841.89 300" xml:space="preserve">
+                <g class='task10_baloon task10_blue' id="blue" stroke-width="4" stroke="white" fill="white" neededcolor="3" startfillcolor="white"
+                    startstrokecolor="white">
+                    <rect x="73.422" y="130.533" width="694.488" height="38.268"></rect>
+                </g>
+                <g class='task10_baloon task10_yellow' id="yellow" stroke-width="4" stroke="white" fill="white" neededcolor="2" startfillcolor="white"
+                    startstrokecolor="white">
+                    <rect x="73" y="195.866" width="429.334" height="38.269"></rect>
+                </g>
+                <g class='task10_baloon task10_red' id="red" stroke-width="4" stroke="white" fill="white" neededcolor="1" startfillcolor="white"
+                    startstrokecolor="white">
+                    <rect x="72.755" y="68.158" width="604.488" height="39.685"></rect>
+                </g>
+                <g id="kontur_1_" stoppainting="true">
+                    <rect x="73.422" y="130.533" fill="none" stroke="#42729D" stroke-width="3" stroke-miterlimit="10"
+                        width="694.488" height="38.268"></rect>
+                    <rect x="73" y="195.866" fill="none" stroke="#42729D" stroke-width="3" stroke-miterlimit="10"
+                        width="429.334" height="38.269"></rect>
+                    <rect x="72.755" y="68.158" fill="none" stroke="#42729D" stroke-width="3" stroke-miterlimit="10"
+                        width="604.488" height="39.685"></rect>
+                </g>
+            </svg>
+        </div>
+        <div class="task10_pencils">
+            <div class="task10_pencil"><img data-color='red' class="task10_pencilImg" src="Images_5/assets6/red.png" alt="re6 pencil"></div>
+            <div class="task10_pencil"><img data-color='blue' class="task10_pencilImg" src="Images_5/assets6/blue.png" alt="re6 pencil"></div>
+            <div class="task10_pencil"><img data-color='yellow' class="task10_pencilImg" src="Images_5/assets6/lightOrange.png" alt="re6 pencil"></div>
+            <div class="task10_pencil"><img data-color='#fff' class="task10_pencilImg" src="Images_5/assets6/eraser.png" alt="eraser"></div>
+        </div>
+        <div class="task10_checkTask">
+            <button class="task10_reloadTask task1Btn">сброс &#8635; </button>
+            <div class="task10_chek_answer"></div>
+            <button class="task10_checkingTask task1Btn">проверить</button>
+        </div>
+    </div>
+
+    <a name="task11"></a>
+    <h3>Тренируемся. Рисунки и примеры </h3>
+    <div class="task11_wrapper task_wrapper">
+        <div class="task11_imgWrapper">
+            <div class="task11_container">
+                <img src="Images_5/assets6/task11_1.png">
+                <div class="task11_imgWrapper_img" data-number="1">
+                </div>
+            </div>
+            <div class="task11_container">
+                <img src="Images_5/assets6/task11_2.png">
+                <div class="task11_imgWrapper_img" data-number="2">
+                </div>
+            </div>
+            <div class="task11_container">
+                <img src="Images_5/assets6/task11_3.png">
+                <div class="task11_imgWrapper_img" data-number="3">
+                </div>
+            </div>
+            <div class="task11_container">
+                <img src="Images_5/assets6/task11_4.png">
+                <div class="task11_imgWrapper_img" data-number="4">
+                </div>
+            </div>
+        </div>
+
+        <div class="task11_answers">
+
+        </div>
+        <div class="task11_checkTask">
+            <button class="task11_reloadTask task1Btn">сброс &#8635; </button>
+            <div class="task11_chek_answer"></div>
+            <button class="task11_checkingTask task1Btn">проверить</button>
+        </div>
+    </div>
+
+    <a name="task12"></a>
+    <h3>Одинаковые ответы </h3>
+    <div class="task12_wrapper task_wrapper">
+        <div class="task12_imgWrapper">
+            <div class="task12_container">
+                Маша
+                <div class="task12_imgWrapper_img" data-number="1">
+                </div>
+            </div>
+            <div class="task12_container">
+                Ваня
+                <div class="task12_imgWrapper_img" data-number="2">
+                </div>
+            </div>
+            <div class="task12_container">
+                Петя
+                <div class="task12_imgWrapper_img" data-number="3">
+                </div>
+            </div>
+            <div class="task12_container">
+                Света
+                <div class="task12_imgWrapper_img" data-number="4">
+                </div>
+            </div>
+        </div>
+        <div class="task12_answers">
+
+        </div>
+        <div class="task12_checkTask">
+            <button class="task12_reloadTask task1Btn">сброс &#8635; </button>
+            <div class="task12_chek_answer"></div>
+            <button class="task12_checkingTask task1Btn">проверить</button>
+        </div>
+    </div>
+
+    <script src="js-data/assets6/task1_script.js"></script>
+    <script src="js-data/assets6/task2_script.js"></script>
+    <script src="js-data/assets6/task3_script.js"></script>
+    <script src="js-data/assets6/task4_script.js"></script>
+    <script src="js-data/assets6/task5_script.js"></script>
+    <script src="js-data/assets6/task6_script.js"></script>
+    <script src="js-data/assets6/task7_script.js"></script>
+    <script src="js-data/assets6/task8_script.js"></script>
+    <script src="js-data/assets6/task9_script.js"></script>
+    <script src="js-data/assets6/task10_script.js"></script>
+    <script src="js-data/assets6/task11_script.js"></script>
+    <script src="js-data/assets6/task12_script.js"></script>
+</body>
+
+</html>
